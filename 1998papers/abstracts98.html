@@ -1,0 +1,910 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>PTTI 1998 Abstracts</TITLE>
+</HEAD>
+
+<BODY text="#000000" link="#0000ff" vlink="#551a8b" alink="#ff0000" bgcolor="#ffffff">
+
+<B><P ALIGN="CENTER"><a name="paper1">Paper 1</a></P>
+<P ALIGN="CENTER">GPS WEEK ROLL-OVER &amp; Y2K COMPLIANCE FOR NBS-TYPE RECEIVERS</P>
+<CENTER>
+<P>V. Zhang and M. Weiss
+<br>National Institute of Standards and Technology
+<br>Boulder, CO
+<P>E. Powers
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>R. Loiler
+<br>Allen Osborne Associates
+<br>Westlake Village, CA
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The NBS-type receiver software was modified to account for both the GPS week rollover and for the Y2K event.  Receivers using this software have been tested by personnel from the National Institute of Standards and Technology (NIST) and the U.S.  Naval Observatory (USNO) using a simulator at the Naval Research Laboratory (NRL).  An independent test was performed by personnel at Allen Osborne Associates (AOA).  The software now appears to be fully compliant with requirements for both the GPS week rollover and the Y2K events.  Since the NBS-receivers are still the predominant receiver for time transfer among laboratories which generate International Atomic Time (TAI), this receiver was given significant attention.  In the process, a number of lessons were learned about testing for these two events.  These lessons are discussed in the paper.  Testing techniques are presented based on these, including GPS simulator testing and worst-case event simulation.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper2">Paper 2</a></P>
+<P ALIGN="CENTER">GPS WEEK TESTING AND YEAR 2000 TESTING FOR ARMY AIRCRAFT GPS RECEIVERS</P>
+<CENTER>
+<P>J. Fiest and R. Gott
+<br>746<SUP>th</SUP> Test Squadron
+<br>Holloman Air Force Base
+<P>E. Thompson
+<br>Amcomp Corp.
+<br>Holloman Air Force Base
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">In June 1998, the 746<SUP>th</SUP> Test Squadron, Holloman AFB, tested US Army aircraft equipped with civilian GPS receivers for GPS week rollover compliance and Year 2000 rollover compliance.  This paper describes the testing and results.  The rollover testing was conducted on board each aircraft with the GPS receiver integrated into the aircraft’s flight management system.  A Northern Telecom 2760 GPS Simulator was used to conduct the tests.  The following aircraft and receivers were tested: C-12 with KLN-90B, C-12 with GNS XIs, C-12 with FMS-800, C-26 with KNS 660, C-23 with UNS1K, C-23 with UNS1B, C-21 with UNS1B, C-12FE with FMS-800 and an RG-12N with ANS-149.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper3">Paper 3</a></P>
+<P ALIGN="CENTER">GPS WEEK 1024 &amp; Y2K TESTING OF COMMERCIAL TIME &amp; FREQUENCY RECEIVERS</P>
+<CENTER>
+<P>S. Davis and P. Skoog
+<br>TrueTime, Inc.
+<br>Santa Rosa, CA
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The GPS week 1024 and year 2000 (Y2K) rollover compliance is very important to all GPS Time and Frequency Receiver end users.</P>
+<P ALIGN="JUSTIFY">TrueTime, Inc. understands the importance of the compliance testing and has implemented an independent test program utilizing a commercial simulator.  TrueTime's test procedures are based on NRL and GPS JPO test programs.  This paper will discuss testing techniques and test results.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper4">Paper 4</a></P>
+<P ALIGN="CENTER">1998: FIRST YEAR OF IMPLEMENTATION OF THE UPDATED TAI ALGORITHM</P>
+<CENTER>
+<P>C. Thomas
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Following a proposal from the Bureau International des Poids et Mesures (BIPM), the Working Group on International Atomic Time (TAI) of the Comit&eacute; Consultatif du Temps et des Fr&eacute;quences (CCTF) decided in December 1997 that two changes should be brought to the algorithm used to compute TAI in order to improve the stability of the time scale and to reduce its delay of access.  It followed that starting January 1 1998, TAI has been computed with implementation of: </P>
+<UL>
+<P ALIGN="JUSTIFY"><LI>an upper limit of relative weights, rather than one of absolute weights, and </P>
+<P ALIGN="JUSTIFY"><LI>a basic computation interval of one month, rather than two months.</P>
+</UL>
+<P ALIGN="JUSTIFY">In January 1998, the value of the upper limit of relative weight was set at 0.7% in continuity with the computation over November-December 1997, and it has not been changed since then.  Definitive results of TAI computation are published each month.</P>
+<P ALIGN="JUSTIFY">The analysis of the results obtained since 1998 shows that, as expected, a stronger discrimination than before has been operated among the best clocks.  Until the end of 1997, a HP5071A clock with a high performance tube was weighted at the upper weight as soon as it entered in TAI computation.</P>
+<P ALIGN="JUSTIFY">We observe that it is no longer the case, and that, in addition, it becomes more and more difficult for a clock to contribute at maximum weight because the total number of good clocks is always increasing, making the competition more severe.</P>
+<P ALIGN="JUSTIFY">The shortening of the interval of computation has already proven to be much more convenient for the users of TAI and for the BIPM, without any degradation of the metrological qualities of the time scale.  This requires, however, a huge effort of the time laboratories which must send their data to the BIPM in due time, a recomputation after the deadline being impossible in this scheme.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper5">Paper 5</a></P>
+<P ALIGN="CENTER">A POST-PROCESSED PERCIVAL ALGORITHM FOR A FREE-RUNNING TIME  SCALE AND A COMPARISON WITH ALGOS AND AT1 ALGORITHMS</P>
+<CENTER>
+<P>Demetrios Matsakis
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">A set of essentially free-running time scales is generated using 9 years of data from the USNO clock ensemble.  Cesium and maser clocks are characterized to second order using time difference data, and the time scales are generated using first or second time differences and a variety of weighing functions.  A comparison of the USNO's Percival, BIPM's Algos, and NIST's AT1 algorithms is also presented from the perspective of time differencing and  effective averaging time.  The utility of USNO's Percival time scales for the prediction of UTC (USNO) will be quantified. </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper6">Paper 6</a></P>
+<P ALIGN="CENTER">STATISTICAL PROBLEMS IN THE ANALYSIS OF UNEQUALLY SPACED DATA</P>
+<CENTER>
+<P>Patrizia Tavella
+<br>Istituto Elettrotecnico Nazionale
+<br>Torino, Italy
+<P>Mauro Leonardi
+<br>Politecnico di Torino
+<br>Torino, Italy
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The statistical analysis of irregularly spaced data or the handling of series with missing data asks for particular care because results may be biased or strongly dependent on the chosen procedure.  In particular, in PTTI applications, two points need to be addressed:</P>
+<UL>
+<P ALIGN="JUSTIFY"><LI>the noise analysis in terms of Allan or related variances,</P>
+<P ALIGN="JUSTIFY"><LI>the estimation of a missing datum on a particular date.</P>
+</UL>
+<P ALIGN="JUSTIFY">The study is performed by means of only analytical treatments by examining the case of TWSTT periodicity, where data are available on Mondays, Wednesdays, and Fridays.  But the problems of handling unevenly spaced data are of more general interest, for example in the case of optical synchronization links, in the case of inter-satellite synchronization links, and in the case of the repeatability analysis of the new frequency standards which do not work continuously.  </P>
+<P ALIGN="JUSTIFY">As far as noise analysis is concerned, the type and amount of noise are usually estimated by the use of the Allan or a related variance.  Such estimation requires a series of equally spaced data.  When data are not equally spaced they are usually filled in by means of some reconstruction technique such as a linear interpolation.  The reconstruction technique induces a modification of the true noise of the data series, but it should be possible to identify the real noise, at least in some spectral bandwidth.  By the introduction of the Allan covariance matrices and by using the transformation laws of such matrices, the effect of interpolating missing data is inferred with an analytical treatment and its effect on typical clock<B> </B>noise is illustrated. </P>
+<P ALIGN="JUSTIFY">The second task of interpolating a missing measure on a particular date is addressed with the double aim of smoothing the noise added by the comparison link and of retaining the clock noise for a correct evaluation of clock behavior.  The evaluation of reconstructed data uncertainty has also to be approached.  Different reconstruction techniques and, in particular, the use of a Kalman filter are evaluated.  </P>
+<P ALIGN="JUSTIFY">Examples of application of the above procedures to some real measurements are reported.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper7">Paper 7</a></P>
+<P ALIGN="CENTER">THE RANGE COVERED BY A CLOCK TIME ERROR IN THE CASE OF WHITE FM NOISE</P>
+<CENTER>
+<P>Patrizia Tavella
+<br>Istituto Elettrotecnico Nazionale G. Ferraris
+<br>Torino, Italy
+<P>Daniela Meo
+<br>Universit&agrave; di Torino
+<br>Torino, Italy
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">In past years, mostly due to the input of the telecommunication community, it became important to know the possible range spanned by the time error of a clock, since it helps in correctly designing the memory buffers.  The problem may be illustrated as follows: suppose one has an atomic clock used as a synchronization unit in a telecommunication network and it is known that the clock signal is mostly affected by a certain random noise.  Which is the &quot;time error&quot;, i.e. the phase deviation, that such a clock may accumulate in a certain time interval?  Apart from deterministic trends, the answer regarding the random component may only be a probabilistic one being that the nature of the process is stochastic.  So the problem can be better expressed as: knowing the spectral density of phase fluctuations, which is the probability law of the range spanned by such phase fluctuations!</P>
+<P ALIGN="JUSTIFY">The case of white phase noise was recently examined and it was possible to infer the probability law of the spanned range.  In this paper, the case of Gaussian white frequency modulation, which results in a phase random walk is considered and the range probability law is inferred, by the study of Wiener processes and their characteristics.  This study yields an estimate of the &quot;maximum&quot; range that can be spanned by the clock error by the identification of a certain percentile in the range distribution, i.e., a range value which is not exceeded more than a certain small percentage of times.</P>
+<P ALIGN="JUSTIFY">A straight application to telecommunication follows because the inferred &quot;maximum&quot; range has a direct relationship with the quantity Maximum Time Interval Error (MTIE) largely used and debated in the telecom community and recently redefined as a percentile quantity.  The study here presented supports the percentile definition and provides some materials for its understanding and its practical implementation.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper8">Paper 8</a></P>
+<P ALIGN="CENTER">BRIDGING THE GAP BETWEEN DESIGN AND USE OF PTTI SYSTEMS: AN OPERATIONS PERSPECTIVE</P>
+<CENTER>
+<P>Steven T. Hutsell
+<br>U.S. Naval Observatory
+<br>Colorado Springs, CO
+<P>William Bollwerk
+<br>AST Engineering
+<br>Colorado Springs, CO
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Imminent factors such as the never-ending, unbounded growth in technology, as well as the desire for better, faster, and cheaper products, will always increase the pressure for advancing time transfer systems in the foreseeable future.  Timing users will continually need systems with more features than before, improved robustness over previous systems, and better timing precision, stability, and accuracy than ever.</P>
+<P ALIGN="JUSTIFY">The perspective of the operator or user of the system is often lost in the pursuit of timing system advancements.  This paper will discuss elements of operations that are essential to the cohesiveness between a system and its operator.  These often forgotten elements include system training, system continuity, operational simplicity, operator responsibility, and common sense in implementation.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper9">Paper 9</a></P>
+<P ALIGN="CENTER">FREQUENCY STABILITY OF ATOMIC CLOCKS USING KNOWLEDGE OF CROSS-CORRELATIONS</P>
+<CENTER>
+<P>F. Torcaso, C.R. Ekstrom, E. Burt and D. Matsakis
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Presented in this paper are cesium and hydrogen maser frequency stability estimates for the clocks at the U.S. Naval Observatory.  When an ensemble of clocks is uncorrelated, one can use the well-known N-cornered-hat method of Gray and Allan (1974) to obtain frequency stability estimates of individual clocks from time or frequency differences.  If one incorrectly assumes the ensemble is uncorrelated, an N-cornered-hat method may yield negative frequency stabilities.  Using recently developed analysis by Tavella and Premoli (1992) to allow for cross-correlation within an ensemble, we incorporate cross-correlations to obtain a mathematically consistent frequency stability for individual clocks. </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster1">Poster 1</a></P>
+<P ALIGN="CENTER">AUTOMATIC FREQUENCY CALIBRATION USING A FUZZY LOGIC CONTROLLER</P>
+<CENTER>
+<P>Ching-Haur Chang, Chia-Shu Liao, and Kun-Yuan Tu
+<br>National Standard Time &amp; Frequency Laboratory
+<br>Telecommunication Laboratories of Chunghwa
+<br>Telecom Co., Ltd., Taiwan
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">This paper presents a way of frequency calibration using a Fuzzy Logic Controller (FLC).  It is known that atomic clocks tend to drift due to aging or some environmental effects.  This generally results in irregular changes of frequency offset.  Due to this fact, it is not an easy job to determine a control quantity by which the frequency offset can be balanced.  The new approach takes advantage of an FLC to determine the quantity.  Two procedures are employed in our approach.  First, the performance of the device being calibrated is collected at a predefined interval.  Second, the FLC uses the collected data to compute a proper quantity and in turn applies it to the device to compensate for its drift.  The FLC can compensate the device at any time whenever it is necessary since it is continuously being monitored.  In the experiment, we use Frequency Measurement and Analysis System (FMAS) as the performance measurement equipment.  Additionally, the FLC uses software written in C.  Experimental results show that a cesium-beam oscillator with frequency accuracy equals to 1.4x10<SUP>-13</SUP> can be improved to approximately 1x10<SUP>-14</SUP> after a one week calibration.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster2">Poster 2</a></P>
+<P ALIGN="CENTER">MILLISECOND PULSAR OBSERVATIONS AT CRL</P>
+<CENTER>
+<P>Yuko Hanado, Michito Imae, Mizuhiko Hosokawa, Mamoru Sekido,
+<br>Akihiro Kaneko and Yasuhisa Shibuya
+<br>Communications Research Laboratory
+<br>Japan
+<P>Hideyuki Kobayashi
+<br>Institute of Space and Astronautical Science
+<br>Japan
+<P>Noriyuki Kawaguchi and Kenta Fujisawa
+<br>National Astronomical Observatory
+<br>Japan
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">We present the current status of millisecond pulsar timing observations at the Communications Research Laboratory (CRL).  CRL has conducted the research on precise measurement of millisecond pulsar pulse timing.  The main purpose is to improve the long term stability of present time scales by using millisecond pulsars.  Here we introduce the outline of our observation system and observed data.</P>
+<P ALIGN="JUSTIFY">Generally, the signals from millisecond pulsars are very weak so that a large antenna and effective data processing are required for their precise timing observation.  We have developed an observation system with wide pass-band for the use of our 34m antenna.  This system uses an Acousto-Optic Spectrometer (AOS) as a frequency divider, which makes the system compact and easy for processing.  The total pass-band is 200MHz with 1024 channels, and the time resolution is 1/100 of a pulsar period.  </P>
+<P ALIGN="JUSTIFY">Using this system at the Kashima 34m antenna, we have started the observations of  PSR1937+21 in November, 1997, at 2GHz band.  Observations are carried out almost once a week.  About seven profiles are obtained during seven hours in each day.  Each profile is obtained during seven hours in each day.  Each profile is obtained after 30 minutes integration.  The fluctuation of observed peak phases in one day is determined, though some systematic trend has not been  removed.  We also were able to detect PSR1713+07 which is expected to be the most stable known millisecond pulsar.</P>
+<P ALIGN="JUSTIFY">In addition, to the observations with the Kashima 34m antenna, we have had opportunities to use the Usuda 64m antenna which belongs to the Institute of Space and Astronautical Science (ISAS) with our observation system.  Though available telescope time is quite limited, we have been able to detect PSR1855+09 at 2GHz.  The data of PSR1937+21 and PSRT1713+07 with high Signal to Noise Ratio (SNR) are also effective in evaluating the performance of our system.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster3">Poster 3</a></P>
+<P ALIGN="CENTER">PROGRESS TOWARDS A LASER-COOLED CESIUM ATOMIC FOUNTAIN FREQUENCY STANDARD</P>
+<CENTER>
+<P>William M. Klipstein, Selma Ghezali, Steven L. Rolston and William D. Phillips
+<br>National Institute of Standards and Technology
+<br>Gaithersburg, MD
+<P>Christopher R. Ekstrom
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">This paper presents the progress towards the realization of an atomic frequency standard using a fountain of laser-cooled cesium atoms.  We have recently observed Ramsey fringes on the 9.2 GHz clock transition and have begun preliminary work aimed at characterizing our fountain.  Currently the clock runs with a stability of 1x10<SUP>-12</SUP> at 2 seconds with 2x10<SUP>5</SUP> atoms detected and a launch temperature of 10 mK.  The stability is currently limited by fluctuations in atom number which we can correct by normalizing the clock signal to total atom number.  We expect to have a stability limited by the quartz crystal local oscillator, at approximately 2-3x10<SUP>-13</SUP><FONT FACE="Symbol" SIZE=2>t</FONT><SUP>-1/2</SUP>.  At this level we would be interested in establishing time transfer capabilities and doing long term comparisons to GPS.</P>
+<P ALIGN="JUSTIFY">We conclude with a discussion of a laser system being built to realize two-dimensional Raman cooling or Raman velocity selection for cooling below the single photon recoil limit.  This system will be used either in our fountain or in a cold-atom clock to be flown on the International Space Station, a project undertaken in collaboration with the Time and Frequency Division at NIST, Boulder.  Stimulated Raman transitions between the two hyperfine levels will be realized with a laser system consisting of a single DBR laser which passes through a 4.6 GHz. electro-optic modulator and acts as a master for two high-power slave lasers.  The slaves are injection locked to only one optical frequency by appropriate tuning of the current and temperature of the slave diode.  The lasers and frequency-switching scheme should be well characterized.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster4">Poster 4</a></P>
+<P ALIGN="CENTER">UPDATE OF THE LOW COST GPS TIME TRANSFER SYSTEM</P>
+<CENTER>
+<P>N. Koshelyaevsky
+<br>Institute of Metrology for Time and Space, GP &quot;VNIIFTRI&quot;,
+<br>Mendeleevo, Russia
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">A report is presented on the creation and investigation of a low cost prototype of GPS time transfer receiver in conformity with Technical Directives for Standardization of GPS Time Receiver Software (TD SGTTR).</P>
+<P ALIGN="JUSTIFY">The core unit of the reported instrument is a Motorola VP Oncore GPS receiver, which seems at the moment to be the only instrument which meets hardware requirements of TD SGTTR.  Also required is a time interval meter with resolution better than 1 ns.  Both instruments are controlled by a PC, GPS receiver via serial interface RS 232C and time interval meter via GPIB.</P>
+<P ALIGN="JUSTIFY">The above mentioned instruments have been tested against a well known TTR-6 Allen Osborne Associates time transfer receiver for about half a year and show competitive performances: time resolution 2-3 ns for averaging time more than a few hours and frequency resolution better than 1x10<SUP>-14</SUP>. On the other hand the tests show that the nature of the noise which limits resolution of the instrument changed considerably for averaging times more than 1 day.  To remove possible sources of such environmental sensitivity, a special  thermo-stabilized antenna module was designed and tested.  The main design features of the antenna module and results of its tests will be reported.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster5">Poster 5</a></P>
+<P ALIGN="CENTER">IEM KVARZ AND QUARTZLOCK GPS DISCIPLINED RUBIDIUM FREQUENCY AND TIME STANDARD</P>
+<CENTER>
+<P>Cosmo Little, Alexander Sheronov, Nicholei Demidov and Clive Green
+<br>Quartzlock UK Ltd.
+<br>Totnes, UK</P>
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">As a result of employing unique carrier phase tracking techniques with algorithm weighting of &quot;all-in-view&quot; software clock techniques and built-in excellent Oven Controlled Crystal Oscillator (OCXO) or Rubidium Oscillator, both Short-Term Stability (STS) at the 1x10<SUP>-13</SUP> Level and Long-Term stability (LTS) to 1x10<SUP>-14</SUP><B> </B>is realized.  </P>
+<P ALIGN="JUSTIFY">Now IEM KVARZ and Quartzlock have reduced the overall size and, most importantly, introduced temperature control for the antenna, downconverter, receiver, and processor.  The original quad helix antenna eliminates multipath errors and the need for a choke plate, while the downconverter at the antenna means the coax carries only 90 MHz so it can be very long and thin (not short and fat as for 1.5 Ghz.).  Time output accuracy meets GPS time transfer atomic clock comparisons at &lt;5ns while LTS can be little improved.  STS has wander, noise floor and hold over to the 10<SUP>-14</SUP> level.</P>
+<P ALIGN="JUSTIFY">IEM KVARZ and Quartzlock have now exceeded even high performance commercial cesium stability at only 20% of its cost and have to employ hydrogen masers for a test to maintain a 10:1 integrity margin above GPS (&amp; cesium) performance.  &#9;</P>
+<P ALIGN="JUSTIFY">A special measurement system had to be developed to meet the requirements of precision GPS frequency and time standards.  A reference source with stability of parts in 1x10<SUP>-15</SUP>, distribution amplifier with &lt;10ps/<FONT FACE="Symbol" SIZE=2>°</FONT>C phase stability, very low phase noise of - 165 dBc/Hz, high isolation of 130dB and internal stability of 1x10<SUP>-15</SUP> to match a very high performance comparator system with 1x10<SUP>-15</SUP> resolution in short measurement times of 10 and 100 seconds.</P>
+<P ALIGN="JUSTIFY">The complete measurement system and results are described.  </P>
+
+<HR>
+
+<CENTER><B>
+<P><a name="poster6">Poster 6</a></P>
+<P>SYNCHRONIZATION OF THE SPANISH R AND D NETWORK (RedIRIS)</P>
+<P>J. Palacio, J. Galindo, L. Batanero and T. L&oacute;pez
+<br>Real Instituto y Observatorio de la Armada
+<br>San Fernando, Cadiz, Spain
+<P>C. Tomas
+<br>CSIC RedIRIS
+<br>Madrid, Spain
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">RedIRIS is the Spanish academic network for research and development funded by the National Plan for R&amp;D (Plan Nacional de I+D) and managed by the Centro de Comunicaciones CSIC RedIRIS which depends on the Scientific Research Council (Consejo Superior de Investigaciones Cientificas).</P>
+<P ALIGN="JUSTIFY">Since September 1996 Real Instituto y Observatorio de la Armada (ROA) has been in charge of the synchronization of RedIRIS network, using NTP protocol.  We have also been responsible for the installation of two stratum 1 time servers, one at the network center in Madrid and the second at ROA in San Fernando.</P>
+<P ALIGN="JUSTIFY">Some modification on the software and the Kernel have been made.  In this paper we present an overview of these results of these modifications on the performance of the service and studies on its accuracy and accessability.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster7">Poster 7</a></P>
+<P ALIGN="CENTER">A BAYESIAN METHOD FOR OSCILLATOR CHARACTERIZATION</P>
+<CENTER>
+<P>Francois Vernotte
+<br>Observatoire de Besan&ccedil;on,
+<br>Besan&ccedil;on, France
+<P>Gilles Zalamansky
+<br>Universit&eacute; de Metz
+<br>Metz, France
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The power spectral density of frequency fluctuations of an oscillator is generally modeled as a sum of power laws with integer exponents (from -2 to +2).  However, a power law with a fractional exponent may exist.  We propose a method for measuring such a noise level and determining the probability density of the exponent.  This yields a criterion for the compatibility with an integer exponent.  This method is based upon a Bayesian approach called the reference analysis of Bernardo-Berger.  The application to a sequence of frequency measurements from a quartz oscillator is illustrated in this paper.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster8">Poster 8</a></P>
+<P ALIGN="CENTER">STABILITY AND ACCURACY OF THE REALIZATION OF THE TIME SCALE IN SINGAPORE</P>
+<CENTER>
+<P>Dai Zhongning, Chua Hock Ann and Neo Hoon
+<br>Singapore Productivity and Standards Board (PSB)
+<br>Singapore
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The National Measurement Center (NMC) of Singapore Productivity and Standards Board (PSB) is the national metrology institute in Singapore.  There are two high-performance cesium clocks, Clock I and Clock II in NMC.  Since October 1997, these two atomic clocks have been contributing to the calculation of Coordinated Universal Time (UTC) established by the BIPM.  Clock I establishes the UTC(PSB) and Clock II serves as backup.  Through a GPS receiver, which follows BIPM common-view schedule, PSB links UTC(PSB) to  UTC(BIPM).</P>
+<P ALIGN="JUSTIFY">The time differences between our atomic clocks and UTC are measured and computed.  The Allan deviation of UTC(PSB) is also evaluated and analyzed starting with one hour.  The factors influencing long term stability and short term stability in our laboratory are mainly ambient temperature and humidity.  Delays in the GPS receiver, antenna, cable between antenna and receiver, as well as cables between receiver and counter are measured.  Error in the realization of UTC(PSB) due to coordinates of antenna and measurement of delays are estimated.  The UTC(PSB) is then aligned to UTC using a microphase stepper.</P>
+<P ALIGN="JUSTIFY">In order to improve the long term stability and reliability of UTC(PSB), an ensemble of atomic clocks, including a hydrogen maser, will be used.  The temperature variation in the laboratory will be reduced to within +/-0.3 degree C.  The coordinates of the antenna and time delay will be measured more accurately.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster9">Poster 9</a></P>
+<P ALIGN="CENTER">UNEQUAL-ARMS MICHELSON INTERFEROMETERS </P>
+<CENTER>
+<P>Massimo Tinto and J.W. Armstrong
+<br>Jet Propulsion Laboratory
+<br>Pasadena, CA
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Michelson interferometers allow phase measurements many orders of magnitude below the phase stability of the laser light injected into their two almost equal-length arms.  If, however, the two arms are unequal, the laser fluctuations cannot be removed by simply recombining the two beams.  This is because the laser jitters experience different time delays in the two arms, and therefore cannot cancel out at the photo detector.  The method presented in this paper requires a separate readout of the relative phase in each arm, made by interfering the returning beam in each arm with a fraction of the outgoing beam[1].  By linearly combining the two data sets with themselves, after they have been properly time shifted [2], we show that it is possible to construct a new data set that is free of laser fluctuations.  </P>
+<P ALIGN="JUSTIFY">An application of this technique to future planned space-based laser interferometer detectors of gravitational radiation [3]<B> </B>is discussed.</P>
+<P ALIGN="JUSTIFY"></P>
+<SUP><P ALIGN="JUSTIFY">1</SUP>G. Giampieri, R.W. Hellings, M. Tinto, J.E.Faller, <I>Optics Communications,</I> <B>123</B>, 669, (1996).</P>
+<B><P ALIGN="JUSTIFY"></P>
+</B><SUP><P ALIGN="JUSTIFY">2</SUP>M. Tinto and J.W. Armstrong, Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California 91109, <I>Phys. Rev</I>. D. In preparation.</P>
+<SUP><P ALIGN="JUSTIFY">3</SUP>LISA: (Laser Interferometer Space Antenna) <I>A Cornerstone Project in ESA's</I> <I>long term space science program &quot;Horizon 2000 Plus.&quot;</I>    <B>MPQ 208, </B>(Max-Planck-Institute f&uuml;r Quantenoptic Garching bei M&uuml;nchen, 1995).</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster10">Poster 10</a></P>
+<P ALIGN="CENTER">TIME TRANSFER USING GPS: A COMPARATIVE STUDY OF CODE AND CARRIER PHASES ANALYSIS RESULTS</P>
+<CENTER>
+<P>C. Bruyninx, P. Defraigne and P. Paquet
+<br>Royal Observatory of Belgium
+<br>Brussels, Belgium
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The Royal Observatory of Belgium (ROB) is one of the few time laboratories which is also actively involved within IGS.  The ROB time laboratories participate in the realization of the TAI and the ROB GPS station belongs to the IGS network.  Moreover, GPS analysis is done routinely within the frame of the IGS Regional Densification Pilot Project as one of the EUREF local analysis centers.</P>
+<P ALIGN="JUSTIFY">We have taken advantage of this rather unique collocation of these two kinds of activities to study the use of geodetic GPS data for time transfer applications.</P>
+<P ALIGN="JUSTIFY">The &quot;all in view&quot; method based on the code as well as the carrier phase method are compared to the classic time transfer by common view. </P>
+<P ALIGN="JUSTIFY">The time transfer capabilities have been investigated on three types of baseline.  First, the noise of the code/phase methods has been evaluated using a zero-baseline with two geodetic GPS receivers driven by the same H-Maser clock, or by a Cesium and a H-Maser clock respectively.  The different response of the hardware of the two receivers to small identical temperature variations is emphasized.  The difference between the L1 and L2 carrier phase delays is also shown.</P>
+<P ALIGN="JUSTIFY">Secondly, a short baseline allowed checking the influence of combining two antenna/receivers in different environments.  In this case, the effect of the varying temperature at the receivers/cables on the hardware delays in shown.</P>
+<P ALIGN="JUSTIFY">Finally, different code methods are compared on a long baseline between Brussels and Wettzell, Germany, in particular the influence of using IGS satellite orbits instead of broadcast orbits is shown.  Some preliminary results using carrier phases are also given. </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="poster11">Poster 1</a>Poster 11</P>
+<P ALIGN="CENTER">PSEUDO RANDOM CODE CORRELATOR TIMING ERRORS DUE TO MULTIPATH IN CABLES AND OTHER CIRCUIT ELEMENTS</P>
+<CENTER>
+<P>F. G. Ascarrunz
+<br>University of Colorado
+<br>Boulder, CO
+<P>T. E. Parker and S. R. Jefferts
+<br>National Institute of Standards and Technology
+<br>Boulder, CO
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">This paper analyzes how multi-path signal propagation inside components such as cables, filters and other circuit elements, can cause an amplification of the timing errors associated with the delay sensitivity to environmental effects in these devices.  This multiplicative effect is due to the timing error in an early/late code correlator being a function of the relative RF carrier phase between the direct and multi-path signals.  The theoretical analysis for the timing errors introduced by the correlator sensitivity to multi-path is well known [1,2], however the dependence of these correlator errors on the relative RF carrier phase has not been fully appreciated by the timing community.  </P>
+<P ALIGN="JUSTIFY">Multi-path in a component such as a cable can occur when a mismatch in impedance occurs and a signal is reflected off the load back towards the source.  If the backward propagating is reflected forward again it will become an interfering multi-path signal that is smaller in amplitude, delayed in time and with an arbitrary phase as compared with the direct signal.  If the reflections are occurring at the ends of the cable then the multi-path signal is delayed from the direct signal by twice the propagation delay of the cable.  Furthermore, the carrier phase difference between direct and multi-path signal is sensitive to small variations in this propagation delay.  </P>
+<P ALIGN="JUSTIFY">Aging, temperature, and other environmental effects affect the propagation delay through the cable and give rise to larger than expected timing errors.  For example consider a typical GPS timing receiver system that is composed of an antenna and LNA, a 30 meter low loss cable and a receiver located indoors.  The carrier frequency is 1575 MHz and the C/A code has a chip rate of 1.023 MHz that corresponds to chip period of 978 ns.  A good cable may have a delay temperature coefficient of 7ppm/</FONT><FONT FACE="Symbol" SIZE=2>°</FONT>C.  The propagation delay through </P>
+<P ALIGN="JUSTIFY">the 30 meter cable is 110 ns and will have variations on the order of 0.8ps/</FONT><FONT FACE="Symbol" SIZE=2>°</FONT>C.  Assuming that the multi-path signal in the cable is caused by impedance mismatch at the antenna</P>
+<P ALIGN="JUSTIFY">and receiver and that it is 30 dB attenuated with respect to the direct signal we can calculate the expected timing error for a 10 degree temperature rise of the cable. The propagation of the direct signal will change by 8ps and the propagation of the </P>
+<P ALIGN="JUSTIFY">multi-path signal will change by 16ps.  The correlator, however, will indicate a change of -800 ps.</P>
+<P ALIGN="JUSTIFY"></P>
+<P ALIGN="JUSTIFY">1.  Holmes, J. K., &quot;Coherent Spread Spectrum Systems,&quot; John Wiley and Sons, Inc., New York, 1982.</P>
+<P ALIGN="JUSTIFY">2.  Van Dierendonck, A. J.., &quot;GPS Receivers,&quot; Global Positioning Systems: Theory and Applications, Vol. 1, American Institute of Aeronautics, Inc., Washington, 1996.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper10">Paper 10</a></P>
+<P ALIGN="CENTER">1998 GPS TIME TRANSFER PERFORMANCE</P>
+<CENTER>
+<P>LT Stacy Jo Huser
+<br>USAF
+<br>Schriever AFB, CO
+<P>Steven T. Hutsell
+<br>U.S. Naval Observatory
+<br>Colorado Springs, CO
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Every year more and more government and civilian agencies rely on GPS for accurate timing and navigation.  The Operational Control Segment, using information provided by the U.S. Naval Observatory, maintains the timing signal well within specifications.  This paper summarizes 1998 GPS Time Transfer performance for authorized users and relates the results to the mechanics of the GPS time steering algorithm.  Data from previous years will also be presented as a means of comparison.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper11">Paper 11</a></P>
+<P ALIGN="CENTER">PERFORMANCE OF GPS ON-ORBIT NAVSTAR FREQUENCY STANDARDS AND MONITOR STATION TIME REFERENCES</P>
+<CENTER>
+<P>Orville J. Oaks, and Thomas B. McCaskill
+<br>U.S. Naval Research Laboratory
+<br>Washington, D.C.
+<P>Wilson G. Reid
+<br>SFA, Inc.
+<br>Washington, D.C.
+<P>James A. Buisson
+<br>Antoine Enterprises
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The U.S. Naval Research Laboratory (NRL) conducts comprehensive analyses of the Global Positioning System (GPS) atomic frequency standards under the sponsorship of the GPS Joint Program Office (JPO) and in cooperation with the 2<SUP>nd</SUP> Space Operations Squadron (2SOPS) at the Master Control Station (MCS) in Colorado Springs, Colorado.  Included in the analysis are the on-orbit Navstar space vehicle clocks and the ground reference clocks at each of the five Air Force and seven National Imagery and Mapping Agency (NIMA) GPS monitor stations.  A presentation will be made of the performance of the Navstar clocks currently operating in the constellation which are characterized through the use of phase, frequency, drift, and stability histories in addition to frequency stability profiles based on the Allan and Hadamard variances.  Clock performance is analyzed using a multi-year database comprised of pseudorange measurements collected by each of the 12 GPS monitor stations.  Results of these analyses are routinely used by the MCS in optimizing the q's in the Kalman filter.</P>
+<P ALIGN="JUSTIFY">Continuous 15-minute measurements of the phase offset of each monitor station time reference from the DoD Master Clock are obtained from Linked Common-View Time Transfer from the reference clock at the NIMA Washington, DC monitor station.  The method is extended to obtain continuous 15-minute measurements of the phase offset of each active Navstar space vehicle clock from the DoD Master Clock.  Hence, the performance of all space and control segment clocks is referenced to the DoD master clock.  </P>
+<P ALIGN="JUSTIFY">Discontinuities in the phase and frequency of the clocks are<B> </B>removed to yield the unperturbed performance of the clocks.  The corrections, together with the probable cause of the discontinuity, are summarized.  Examples of the frequency history and the exhaustive calculation, for every multiple of the sample period of 15 minutes from 15 minutes to 12 days, of the frequency stability profile for several Navstar space vehicle clocks and for the time reference at each of the GPS monitor stations will be presented.</P>
+<P ALIGN="JUSTIFY">Analysis of the performance of the first on-orbit Block IIR operational rubidium clock will be presented.  A comparison of the performance of this clock will also be made with that of a Block IIR flight candidate rubidium clock currently undergoing life testing in the Clock Test Facility of the Naval Research Laboratory.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper12">Paper 12</a></P>
+<P ALIGN="CENTER">GPS BLOCK IIR</B> <B>RUBIDIUM ATOMIC FREQUENCY STANDARD (RAFS) LIFE TEST</P>
+<CENTER>
+<P>R. Beard, J. Brad and J. White
+<br>U.S. Naval Research Laboratory
+<br>Washington, D.C.
+<P>A. Frank, F. Danzy and W. Reid
+<br>SFA, Inc.
+<br>Washington, D.C.
+<P>J. Buisson
+<br>Antoine Enterprises
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The Rubidium clocks in the GPS Block IIR spacecraft have little previous flight experience, and they will be the only atomic clocks used on the Block IIR satellites.  The U.S. Naval Research Laboratory (NRL) in cooperation with the GPS Joint Program Office (JPO), the GPS Control Segment, Lockheed Martin, ITT and EG&amp;G is conducting a three year life test of two flight qualified EG&amp;G Rubidium Atomic Frequency Standards (RAFS) selected from the operational spacecraft inventory.  The two RAFS, serial numbers 28 and 30, were selected as representative of the flight configuration build for Block IIR by ITT and provided by the JPO to NRL for this test.  The test is intended to build confidence in these units as operational spacecraft clocks and establish a database of fundamental performance characteristics.  The two units are being operated in independent thermal vacuum chambers with high resolution monitoring of the clock’s frequency compared to the NRL Hydrogen Maser references.  The units’ internal monitors that would normally be sent as telemetry and environmental test conditions are monitored and recorded with high resolution.</P>
+<P ALIGN="JUSTIFY">Output from one of the two units has been used as input to the NRL Time Keeping System Simulator (TKSS).  The TKSS was originally built to evaluate the implementation and algorithms used in the Block IIR on-board Time Keeping System (TKS) which determines the satellite’s clock signal to the transmitter. Data from the TKSS have been used to evaluate TKS on-orbit performance and serve as an analysis reference.  RAFS data from the beginning of the test on 31 March 1997 to the current date and representative TKSS data will be presented.  Frequency stability results of the RAFS have routinely shown Allan deviation performance in parts in 10<SUP>14</SUP> at one day, much better than initially expected.  In addition to the data from the two test units, on-orbit data from the Block IIR clocks are being added to the database for life data analysis as satellites are put into service.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper13">Paper 13</a></P>
+<P ALIGN="CENTER">SHORT-TERM CHARACTERIZATION OF GPS DISCIPLINED OSCILLATORS AND FIELD TRIAL FOR FREQUENCY OF ITALIAN CALIBRATION CENTRES</P>
+<CENTER>
+<P>F. Cordara and V. Pettiti
+<br>Istituto Elettrotecnico Nazionale (IEN)
+<br>Torino, Italy
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Quartz and Rubidium oscillators disciplined by the signals of the Global Positioning System Satellites (GPSDOs) are increasingly used as reference standards in calibration centers and in telecommunication networks, thanks to their cesium-like long-term instability.   Several investigations are underway   in the metrological laboratories of different countries concerning their use for the traceability to the national standards of time.  Some of these devices were tested in the past at the Time and Frequency Laboratory of IEN to study their use as frequency and time references in secondary laboratories and their traceability to the Italian standard of time.</P>
+<P ALIGN="JUSTIFY">In further investigations performed on site, evidence was found for short-term frequency instabilities, not previously detected, mainly due to temperature effects and to the disciplining algorithms used, that must be taken into account especially in the frequency calibration field.  The short-term instability results obtained at IEN on some GPSDOs, adopting appropriate statistical tools and showing the real uncertainty limits in calibration, are reported in this paper.  They are also checked by means of a field-trial on frequency, carried on among some Italian Calibration Centres equipped with GPSDOs or other frequency references, using either a free rubidium or a quartz oscillator as traveling standards.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper14">Paper 14</a></P>
+<P ALIGN="CENTER">ANALYSIS OF ON-ORBIT BEHAVIOR OF GPS BLOCK II-R TIME KEEPING SYSTEM</P>
+<CENTER>
+<P>Todd Dass, John Petzinger, Harris Rawicz and John Rajan
+<br>ITT Aerospace, Communications Division
+<br>Clifton, NJ
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The first Block II-R satellite Space Vehicle Number 43 (SVN43) of the GPS Replenishment Navigation System was declared healthy on 31 January 1998.  Block IIR provides an order of magnitude enhancement to the GPS system, including accuracy, simplicity, and low on-orbit maintenance.  This paper presents the on-orbit performance of the Block IIR time keeping system.  The SVN43's primary Rubidium Atomic Frequency Standard (RAFS#1) has been powered since 13 August 1997.  The RAFS stabilized quickly, and until 20 December 1997 no unusual phase or frequency jumps were observed.</P>
+<P ALIGN="JUSTIFY">This paper presents three phases of the Time Keeping System analysis.  The first phase was a comparison of the SVN43 results to the existing GPS satellites that use a RAFS as the primary reference.  This phase was used to determine &quot;normal&quot; RAFS on-orbit operation.  The results indicated that the SVN43 operation was significantly better then other SVs using a RAFS reference.  The second phase was to analyze data from NIMA, NRL, and SVN43 telemetry to determine the causes of any timing variations.  This led to a concentration on the RAFS and associated inputs and outputs.  The third phase was to examine the entire system to determine how to improve our visibility into the satellite system operation.  This led to the uploading of a data capture program that expanded the variables saved in the SV computer program and development of techniques to evaluate the existing data and new data which will be saved by the modified data capture program.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper15">Paper 15</a></P>
+<P ALIGN="CENTER">REAL-TIME GPS MONITORING OF ATOMIC FREQUENCY STANDARDS IN THE CANADIAN ACTIVE CONTROL SYSTEM (CACS)</P>
+<CENTER>
+<P>F. Lahaye, M. Caissy and J. Popelar
+<br>National Resources
+<br>Ottawa, Canada
+<P>R.J. Douglas
+<br>National Research Council
+<br>Ottawa, Canada
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">In Canada, ten Real-Time Active Control Points (RTACP) across the country are used to monitor continuously all GPS satellites in view and generate wide area GPS corrections at the Real-Time Master Active Control Station (RTMACS) in Ottawa with an update rate of 2 seconds.  Dual frequency high precision geodetic GPS receivers using external free running atomic frequency standards (3 H-Masers, 3 Cesiums and 4 Rubidiums) provide pseudorange and phase measurements at 1 second interval.  Ionosphere free, carrier-phase smoothed pseudorange data are combined with rapid GPS satellite orbit predictions and RTACP coordinates in a least-squares adjustments to determine satellite and station clock corrections with respect to a Virtual Reference Clock (VRC).  The VRC is maintained as a weighted mean of RTACP long-term clock models.  The VRC is related to the smoothed mean GPS system time using a linear fit with 2-3 day correlation time traceable to UTC(NRC) via the RTACP(NRC) which is  phase-locked to the NRC H-4 maser.  This approach mitigates the effects of instabilities of individual RTACP clocks, eliminates clock discontinuities and provides VRC stability at or below the 10<SUP>-14</SUP> level.  The system provides continuous RTACP clock synchronization with RMS residual in the range of 0.1-0.5 ns, the real-time GPS satellite clock corrections with RMS residual in the range of 0.3-0.8 ns and facilitates determination of long term GPS satellite clock parameters using polynomial fits with a few days correlation time.  The quality of the real-time results will be presented and discussed, as evaluated at Integrity Monitoring Stations (IMS) in near real-time and by comparison with the CACS and IGS precise global post-processing results which are routinely available with a delay of several days.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper16">Paper 16</a></P>
+<P ALIGN="CENTER">COORDINATION OF POLISH ATOMIC TIME SCALE AND SYNCHRONIZING OF CLOCKS USING MULTI-CHANNEL GPS RECEIVERS</P>
+<CENTER>
+<P>Jerzy Nawrocki
+<br>Astrogeodynamical Observatory
+<br>Space Research Centre
+<br>Polish Academy of Sciences
+<br>Borowiec, Poland
+<P> Wlodzimierz Lewandowski
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Several Polish scientific and commercial institutions are equipped with cesium frequency standards, which can be used for the establishment of a National Atomic Time Scale.</P>
+<P ALIGN="JUSTIFY">Among them are:</P>
+
+<UL>
+<LI>Time and Frequency Laboratory of the Central Office of Measures (GUM): three Cs clocks;
+<LI>Institute of Communication: two Cs clocks;
+<LI>Central Laboratory of the Polish Telecommunication Company (TP SA): one Cs clock;
+<LI>Astrogeodynamical Observatory of the Polish Academy of Sciences (AOS): two Cs clocks.
+</UL>
+
+<P ALIGN="JUSTIFY">The Polish Atomic Time Scale will be computed from the readings of the clocks of the above listed laboratories according to a specially developed algorithm.  All participating laboratories will be equipped with a Motorola VP Oncore multi-channel GPS receiver, a dedicated PC computer, a time interval counter (1 ns uncertainty), and software for common-view comparisons developed in cooperation with the BIPM.  The software was presented at the Precise Time and Time Interval Meeting at Long Beach in 1997.  The multi-channel method enables the comparisons to be made with an uncertainty better than 2 ns.  The results of such comparisons are presented.</P>
+<P ALIGN="JUSTIFY">An atomic time scale based on eight Cs frequency standards, which are compared with high accuracy, will be much more stable than the individual clocks.  It will also be possible to include several new Polish clocks in the computations of TAI.  At present only those of the AOS and GUM are included.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper17">Paper 17</a></P>
+<P ALIGN="CENTER">A TEST OF THE USE OF GLONASS PRECISE CODE FOR HIGH-PRECISION TIME TRANSFER</P>
+<CENTER>
+<P>J. Azoubib and W. Lewandowski
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Construction of the 24-satellite GLONASS constellation began in 1982.  However, the use of GLONASS signals, which have characteristics similar to those of GPS for time synchronization, was not possible for a long time because no commercial time receivers were available.  Over the last few years several types of GLONASS time receivers have appeared on the market, among them double-frequency multi-channel P-code receivers.  Since GLONASS P-code unlike GPS P-code, is available to civil users, it is of great interest to take advantage of it.</P>
+<P ALIGN="JUSTIFY">GLONASS P-code has two main advantages for precision time synchronization.  First, the GLONASS P-code wavelength is one-tenth that of GLONASS C/A-code and about one-fifth that of GPS C/A-code.  Thus, GLONASS P-code pseudo-range measurements are considerably more precise than comparable GPS or GLONASS-C/A-code measurements.  Second, GLONASS P-code is transmitted on both L1 and L2 frequencies, without Anti-Spoofing (AS) encryption.  The absence of AS encryption allows GLONASS P-code measurements to be used for high-precision ionospheric measurements.</P>
+<P ALIGN="JUSTIFY">In a first attempt to evaluate GLONASS P-code, zero-baseline comparison of two one-channel P-code receivers using temperature-protected antennas shows noise of receiving equipment reduced to a few hundred picoseconds for a one-day averaging time, allowing frequencies to be compared at a level of a few parts in 10<SUP>15</SUP>.  Use of multi-channel GLONASS P-code observations further reduces noise, and allows frequency transfer at a level approaching one part in 10<SUP>15</SUP> for an averaging time of one day.</P>
+<P ALIGN="JUSTIFY">In this paper we demonstrate the improvement brought about by the use of GLONASS P-code for common-view time transfer, and we compare the results thus obtained with the results obtained from GLONASS and GPS C/A code common-view time transfers.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper18">Paper 18</a></P>
+<P ALIGN="CENTER">RESULTS OF RIRT's COMPARISONS via GLONASS SIGNALS</P>
+<CENTER>
+<P>Pyotr P. Bogdanov, Arvid G. Gevorkyan and Vadim S. Zholnerov
+<br>The Russian Institute of Radionavigation and Time (RIRT)
+<br>St. Petersburg, Russia
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">At present, using the signals of a satellite navigation system for comparison of remote clocks in the common-view mode is the most popular and precise method.  However, its practical realization in Russia via GLONASS signals was not possible for many years due to the lack of an automated receiving system.</P>
+<P ALIGN="JUSTIFY">This paper describes the experimental operation of an automated system for receiving GLONASS signals in the Russian Institute of Radionavigation and Time, St. Petersburg.  The results of the time scale comparisons are presented for the period from the beginning of 1996 to the end of 1998.  </P>
+<P ALIGN="JUSTIFY">The error of determination of the offset between a user’s clock and UTC(SU) is about 30 ns (rms) in direct synchronization mode.  The error of determination of the offset between remote clocks in common-view mode is about 15 ns (rms).</P>
+<P ALIGN="JUSTIFY">Improvement of the comparison accuracy can be achieved by standardization and subsequent implementation of BIPM requirements in GLONASS time receivers and processing procedures.  </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper19">Paper 19</a></P>
+<P ALIGN="CENTER">THE IGS/BIPM PILOT PROJECT TO STUDY ACCURATE TIME AND FREQUENCY COMPARISONS USING GPS PHASE AND CODE MEASUREMENTS</P>
+<CENTER>
+<P>J. Ray
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>C. Thomas
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>ABSTRACT </P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">At the end of 1997, the International GPS Service (IGS) and the Bureau International des Poids et Mesures (BIPM) established a joint Pilot Project for time and frequency comparisons using GPS.  The goal is to develop a collaboration between the geodetic and the timing communities in order to investigate the use of GPS phase and code measurements for accurate time and frequency comparisons.</P>
+<P ALIGN="JUSTIFY">In January 1998, a Call for Participation to the Pilot Project was widely distributed proposing four different areas of participation:  </P>
+<UL>
+<LI>   Deployment of GPS receivers
+<LI>   GPS data analysis
+<LI>   Analysis of instrumental delays
+<LI>   Time and frequency comparison
+</UL>
+<P ALIGN="JUSTIFY">   Replies were received from more than 30 institutes, among which more than half are timing laboratories contributing to TAI computation.  The IGS/BIPM Pilot Project Working Group was created in March 1998; its membership is drawn from the answers to the Call for Participation, with a number of individuals being listed as observers.  At the first meeting of the Working Group, held at the BIPM on 22 and 23 June 1998, it appeared as highly desirable that some institutes in the world become timing laboratories contributing to TAI and IGS stations, with a strong link between the timing and the geodetic parts of the institute.  This is already the case for some laboratories, but should be reinforced.  This would allow:</P>
+<UL>
+<LI> Establishment of a direct link between the clocks at IGS stations and UTC, with the immediately consequence that IGS products would benefit from the full accuracy and stability of a better reference time scale than GPS time.</P>
+<LI>Conducting accurate time and frequency comparisons between time laboratories, as a benefit from the data processing provided by IGS analysis centers (undifferenced GPS phase data, ultra-accurate coordinates and orbits, tropospheric estimation and calibration of ionospheric delays).</P>
+</UL>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper20">Paper 20</a></P>
+<P ALIGN="CENTER">PRECISE CLOCK SOLUTIONS USING CARRIER PHASE FROM GPS RECEIVERS IN THE INTERNATIONAL GPS SERVICE</P>
+<CENTER>
+<P>J.F. Zumberge, D.C. Jefferson, D.A. Stowers, R.L. Tjoelker and L.E. Young
+<br>Jet Propulsion Laboratory
+<br>Pasadena, CA
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">As one of its activities as an Analysis Center in the International GPS Service (IGS), the Jet Propulsion Laboratory (JPL) uses data from a globally distributed network of geodetic-quality GPS receivers to estimate precise clock solutions, relative to a chosen reference, for both the GPS satellites and GPS receiver internal clocks, everyday.  The GPS constellation and ground network provide geometrical strength resulting in formal errors of about 100 picoseconds (ps) for these estimates.  </P>
+<P ALIGN="JUSTIFY">Some of the receivers in the global IGS network contain high quality frequency references such as hydrogen masers.  The clock solutions for such receivers are smooth at the 20-ps level on time scales of a few minutes.  There are occasional (daily to weekly) shifts at the microsecond level, symptomatic of receiver resets, and 200-ps-level discontinuities at midnight due to 1-day processing boundaries. </P>
+<P ALIGN="JUSTIFY">As a participant in the IGS/BIPM pilot project, JPL is focusing its work on how these clocks solutions can be used in global time transfer.  Such work includes (i) comparisons of the clocks with other techniques; (ii) cause of site-specific microsecond-level shifts; (iii) calibration of fixed delays; and (iv) enforcing continuity at midnight boundaries.</P>
+<I><P ALIGN="JUSTIFY">The research described here was carried out by the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration.</P></I>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper21">Paper 21</a></P>
+<P ALIGN="CENTER">CALIBRATION CONSIDERATIONS FOR IGS/BIPM PILOT TIME TRANSFER PROJECT USING CARRIER PHASE</P>
+<CENTER>
+<P>R. Beard, J. Brad, J. White and O. J. Oaks
+<br>U.S. Naval Research Laboratory
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">During the spring of 1998 a pilot project was begun between the Bureau International des Poids et Mesures (BIPM) and the International GPS Service (IGS) to investigate the accuracy of time and frequency comparisons using GPS phase and code measurements.  The IGS has established a cooperative network of stations around the world which gather GPS data and analysis centers that provide  products from these GPS data and other contributed data.  The precision of the data and products has made major contributions in geodynamics and Earth sciences and presents the possibility of highly precise time and frequency comparisons.</P>
+<P ALIGN="JUSTIFY">To compare time information between two sites by whatever means requires the time of propagation of the signal through the equipment, cables and space to be precisely and accurately known.  IGS differential measurements with GPS carrier phase data are highly precise but must be calibrated accurately in order to provide time comparisons. This paper will address the problems and possible techniques for calibration for time comparison.  Specialized equipment and GPS system simulators will be described to calibrate from the antenna through the receiver output.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper22">Paper 22</a></P>
+<P ALIGN="CENTER">A LONG-TERM COMPARISON BETWEEN GPS CARRIER-PHASE AND TWSTT MEASUREMENTS</P>
+<CENTER>
+<P>Kristine Larson
+<br>University of Colorado
+<br>Boulder, CO
+<P>Lisa Nelson and Judah Levine
+<br>National Institute of Standards and Technology
+<br>Boulder, CO
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">We have conducted a long-term time-transfer experiment between the USNO Master Clock and the USNO Alternate Master Clock.  These clocks are located at the Naval Observatory in Washington D.C. and Schriever (Falcon) Air Force Base near Colorado Springs, Colorado, respectively.  Two-way satellite time-transfer measurements are made nearly every hour.  Dual-frequency carrier-phase data are collected every 30 seconds.</P>
+<P ALIGN="JUSTIFY">The data were analyzed using the GPS Inferred Positioning SYstem (GIPSY) software developed by the Jet Propulsion Laboratory, combined with precise satellite orbits determined by the IGS global tracking network.  The radial accuracy of these orbits is about 10 cm.  Instead of computing the difference between the GPS observables as is common in high-accuracy geodetic GPS analyses, GIPSY explicitly estimates the receiver and satellite clocks at each data epoch.  The technical GPS issues we investigated include the importance of carrier-phase ambiguity resolution, troposphere modeling, thermal effects, and multipath noise.  Given that the error spectra for the GPS and TWSTT systems are quite distinct, we hope to learn more about each system’s accuracy potential.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper23">Paper 23</a></P>
+<P ALIGN="CENTER">ACCURATE FREQUENCY AND TIME COMPARISONS USING GPS CARRIER PHASE: RECENT RESULTS</P>
+<CENTER>
+<P>G. Petit, C. Thomas and Z. Jiang
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Recently developed frequency standards state an accuracy well below 1x10<SUP>-14</SUP>.  Comparing their frequency over a sufficiently short interval is a challenge for existing time and frequency transfer techniques.  Carrier phase and code measurements from multi-channel geodetic GPS receivers have a great potential to achieve this goal.  For this purpose we used Ashtech Z12-T receivers, a version of the usual Z12 which has been specially modified to meet the stability requirements of time and frequency comparisons.</P>
+<P ALIGN="JUSTIFY">It is expected that frequency comparison may be carried out with an uncertainty of 1x10<SUP>-15</SUP> on one day.  To reach this goal, the sensitivity of the hardware to the environment must be reduced, and we have used temperature-stabilized antennas and special cables.  We estimate the improvements due to these features from local experiments using two receivers and two antennas separated by a few meters.  Then frequency comparisons between hydrogen masers have been studied on short (few kilometers) and longer baselines.  For these experiments, the Z12-T data have been included in a larger set of measurements from a geodetic GPS data base maintained by the International GPS Service for Geodynamics (IGS).</P>
+<P ALIGN="JUSTIFY">In order to be used also for time transfer, these receivers should be calibrated to obtain the true values of the hardware delays and their variation with the environment.  We discuss preliminary results of an exercise of absolute calibration of the Ashtech Z12-T receiver carried out using a GPS signal simulator.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper24">Paper 24</a></P>
+<P ALIGN="CENTER">A VERY SHORT BASELINE TIME TRANSFER EXPERIMENT USING TWO GEODETIC QUALITY GPS RECEIVERS AND CARRIER PHASE TECHNIQUES</P>
+<CENTER>
+<P>Jon D. Clarke, John A. Davis and Andrew Lowe
+<br>Centre for Time Metrology
+<br>National Physical Laboratory
+<br>Teddington, UK
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">For over ten years primary timing laboratories have used signals from the Global Positioning System (GPS) to compare time scales.  The method used: the common-view of GPS satellites, does not use the GPS system to its full potential.  Recently, there has been substantial interest in using geodetic quality GPS receivers for time transfer.  In contrast to the earlier common-view GPS receivers, these geodetic quality receivers record all available code and phase measurements from all of the GPS satellites in view.  The result is a substantial improvement in the accuracy of the resulting time and frequency transfers.</P>
+<P ALIGN="JUSTIFY">In this paper, a detailed account is presented of comparisons made at NPL between a recently purchased Ashtech Z12-T receiver and an older TTR-4P receiver.  Both receivers are geodetic quality GPS receivers, adapted for time transfer.  The reference signals for both receivers are derived from a Sigma Tau Hydrogen Maser which is also used to generate UTC(NPL).  The two antennas were placed five meters apart.  Data collected from both receivers were processed using analytical software developed at NPL.  A 30s measurement epoch was used.  The coordinate differences of the phase centers of the two antennas were determined with sub cm precision, at both L1 and L2 frequencies.  Direct comparisons were made between the two receivers using both P1 and P2 coded signals, and L1 and L2 phase measurements.  Variations in these common clock time transfer measurements were correlated with temperature variations of both GPS antennas and receivers.  Relative changes in the standard frequency and 1PPS inputs to the two receivers were also examined.</P>
+<P ALIGN="JUSTIFY">Measured ionospheric delays were obtained from both receivers.  Comparisons were made between the two receivers' ionospheric delay determinations.  The ionospheric delay changes were determined using code, </P>
+<P ALIGN="JUSTIFY">phase and single frequency code-phase difference measurements.  Multipath is one of the major cause of errors in the surveying applications of Geodetic GPS receivers.  Code-Phase differences are used to estimate the magnitude of multipath present in both receivers.  The principal sources of error present in the common clock measurements are discussed and possible improvements are considered.  The future direction of geodetic time transfer work at NPL is also outlined.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper25">Paper 25</a></P>
+<P ALIGN="CENTER">FIRST RESULTS ON TRANSATLANTIC TIME AND FREQUENCY TRANSFER BY GPS CARRIER PHASE</P>
+<CENTER>
+<P>G. Dudle, F. Overney and L. Prost
+<br>Swiss Federal Office of Metrology
+<br>Switzerland
+<P>T. Schildknecht and T. Springer
+<br>Astronomical Institute of the University of Berne
+<br>Switzerland
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY"> Time and frequency transfer by GPS carrier phase, also referred to as Geodetic Time Transfer (GeTT), has been studied intensively over the last two years in the frame of a collaboration between the Swiss Federal Office of Metrology (OFMET) and the Astronomical Institute of the University of Berne (AIUB).  For this work, two terminals equipped with geodetic GPS receivers have been built and were successfully deployed over European baselines.  The study has demonstrated the low instrumental noise of GeTT, sy(t)=10<SUP>-13</SUP> at t = 100s, which makes this method an ideal tool for frequency comparisons between high performance clocks since much shorter averaging times are required than with GPS Common View.&#9;</P>
+<P ALIGN="JUSTIFY">This new Time and Frequency Transfer method is now to be tested over longer baselines.  In this paper we report on a transatlantic campaign between the Physikalisch Technische Bundesanstalt in Germany (PTB) and the US Naval Observatory (USNO).  Besides the longer baseline the choice of these two sites  also offers the possibility to frequently compare GeTT and Two Way Satellite Time and Frequency Transfer (TWSTFT).</P>
+<P ALIGN="JUSTIFY">The paper outlines the main parts of a GeTT campaign and summarizes the first results of Time and Frequency Transfer by GPS Carrier Phase between PTB and USNO.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper26">Paper 26</a></P>
+<P ALIGN="CENTER">HIGH PRECISION TIME AND FREQUENCY TRANSFER USING GPS PHASE AND CODE MEASUREMENTS</P>
+<CENTER>
+<P>T. Schildknecht and T. Springer
+<br>Astronomical Institute
+<br>University of Berne
+<br> Switzerland
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The use of GPS C/A code measurement for time transfer by means of the so-called common-view method is a widely accepted technique.  The full potential of the GPS system for time and frequency transfer is, however, only exploited by using all phases and codes observable from all satellites in view.  Geodetic processing techniques, adapted to the specific requirements to process data from specially modified geodetic receivers, will be presented.  We will also discuss the requirements for the receivers, and the control as well as the calibration of instrumental delays.  The potential of the technique will be illustrated by laboratory experiment and measurement campaigns on continental and intercontinental baselines.  </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper27">Paper 27</a></P>
+<P ALIGN="CENTER">HARDWARE DELAY MEASUREMENTS AND SENSITIVITIES IN CARRIER PHASE TIME TRANSFER</P>
+<CENTER>
+<P>E. Powers
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Precise time and frequency transfer experiments using carrier phase GPS with time stabilities under one hundred picoseconds are now being reported.  Strong daily variations in some of the data reported indicate temperature sensitivity in the measurement hardware.  The instrumental delays of one commonly used carrier phase GPS receiver and its antenna and several types of antenna cable and their sensitivity to environmental changes are reported in this  paper.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper28">Paper 28</a></P>
+<CENTER>
+<P>TWO-WAY SATELLITE TIME TRANSFER (TWSTT):
+<br>USNO OPERATIONS AND CALIBRATION SERVICES
+<CENTER>
+<P>James A. DeYoung
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The U.S. Naval Observatory Master Clock (USNO MC) is made available to remote users who need one nanosecond (ns) level real-time synchronization via TWSTT.  Often a user has a requirement of independence from the Global Positioning System (GPS) and TWSTT is capable of providing that independence.  The one nanosecond synchronization is achieved by using mobile or transportable Earth stations.  Also, high precision synchronization is achieved via TWSTT for those who require a very stable frequency reference.</P>
+<P ALIGN="JUSTIFY">A description of current USNO equipment, operations, and services will be provided.  Representative data will be presented showing results from several TWSTT links.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper29">Paper 29</a></P>
+<P ALIGN="CENTER">IMPROVING THE DELAY STABILITY OF A TWO-WAY SATELLITE TIME AND FREQUENCY TRANSFER EARTH STATION</P>
+<CENTER>
+<br>Setnam L. Shemar and John A. Davis
+<br>National Physical Laboratory
+<br>Centre for Time Metrology
+<br>Teddington, UK
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Two-Way Satellite Time and Frequency Transfer (TWSTFT) is increasingly used for the routine intercomparison of time scales at primary timing laboratories.  The performance of a two-way time transfer link is, however, limited by delay instabilities in the earth station instrumentation.  In recent months NPL has been examining methods both to improve the delay stability of its TWSTFT earth station and to measure accurately any residual delay changes.</P>
+<P ALIGN="JUSTIFY">The transmission lines between the earth stations’ electronic instrumentation and antenna have been studied extensively. Direct comparisons are made between coaxial cables and WG-17 waveguide transmission lines.  The effectiveness of placing signal isolators within the transmission lines to eliminate unwanted signal reflections is examined.  Temperature control of all active elements of the TWSTFT station is implemented, and its effectiveness as a method for limiting the delay instabilities of the TWSTFT earth station is discussed.  The performance of NRL's TWSTFT modems is also studied, in particular the effect on the modems' delays of breaking and then re-locking to the TWSTFT signal.</P>
+<P ALIGN="JUSTIFY">Several European laboratories have been operating near-field satellite simulators to measure the delay asymmetry of their TWSTFT earth stations.  NPL has adopted a different calibration arrangement, where two separate calibrating loops are used to measure the TWSTFT earth station up-link and down-link delays separately.  Two independent sets of the calibrating equipment have been operated on the same TWSTFT earth station.  This has enabled estimates to be made of the effectiveness of the calibrating loops in the measurements of earth station delay asymmetry.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper30">Paper 30</a></P>
+<P>TWO-WAY SATELLITE TIME TRANSFER (TWSTT)
+<br>APPLICATIONS WITH THE EASTERN TEST RANGE
+<CENTER>
+<P>I. Galysh, D. Koch and R. Beard
+<br>U.S. Naval Research Laboratory
+<br>Washington, D.C.
+<P>W. Reid
+<br>SFA, Inc.
+<br>Washington, D.C.
+<P>J. Buisson
+<br>Antoine Enterprises
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The Eastern Test Range (ETR) at Cape Canaveral, as part of the Range Modernization Program, is incorporating (TWSTT) systems into their tracking network.  A detailed study of the mechanization of TWSTT into the ETR systems has been performed.  An experiment using different satellite frequencies was completed and was previously reported.  A design implementation was also completed and was previously reported.  Acceptance testing was successfully performed at the Naval Research Laboratory (NRL) including over-the-air testing prior to the first installation at the Range Operation Control Center (ROCC), Cape Canaveral.  The first phase of ROCC installation was completed in July 1998.</P>
+<P ALIGN="JUSTIFY">The results of acceptance testing at NRL indicated a sub-nanosecond time transfer capability.  Data from those tests will be presented and discussed.  Installation test data from the initial phase will be presented.  Calibration of these units for absolute time comparison was difficult but will support a nanosecond level capability.  The calibration methods and results will be described.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper31">Paper 31</a></P>
+<P ALIGN="CENTER">TWO WAY SATELLITE TIME TRANSFER ACTIVITIES IN THE ASIA-PACIFIC REGION</P>
+<CENTER>
+<P>Michito Imae, Mizuhiko Hosokawa, Kuniyasu Imamura
+<br>Hirotaka Yukawa and Yasuhisa Shibuya
+<br>Communications Research Laboratory
+<br>Tokyo, Japan
+<P>Peter T.H. Fisk, Steve Quigg, Malcolm A. Lawn, John S. Thorn,
+<br>Michael J. Wouters and Colin T. Coles 
+<br>National Measurement Laboratory
+<br>Sydney, Australia
+<P> Li Zhang
+<br>Shaanxi Astronomical Observatory
+<br>Xian, China
+<P>Yasuhiro Nadadan
+<br>Japan National Research Laboratory of Metrology
+<br>Tsukuba-Shi, Japan
+<P>ABSTRACT</P>
+</B>
+<P ALIGN="JUSTIFY">Two Way Satellite Time Transfer (TWSTT) is one of the most precise time transfer techniques, and time transfer using this method has been used between European and North American Time and Frequency laboratories on a regular basis.  In the Asia-Pacific Region four time and frequency laboratories have been involved in establishing a precise time transfer network using the TWSTT technique.</P>
+<P ALIGN="JUSTIFY">After several continuous 24-hour TWSTT experiments between Communications Research Laboratory (CRL) in Japan and the National Measurement Laboratory (NML) in Australia, a regular, twice weekly TWSTT link has been established since April 1998 using a Ku-band transponder on INTELSAT satellite 702 located at 177 deg. E.</P>
+<P ALIGN="JUSTIFY">CRL and Shaanxi Astronomical Observatory of the Chinese Academy of Science (CSAO) are planning to establish a precise time transfer link using the TWSTT technique by October or November, 1998.  For this time transfer link we will be using a Ku-band transponder on the JCSAT-3 satellite which is owned by a Japanese satellite communication company and is located at 128 deg. E..  The National Research Laboratory of Metrology(NRLM) in Japan is also planning to join the TWSTT link network with a link to CRL also using JCSAT-3 from the beginning of 1999.</P>
+<P ALIGN="JUSTIFY">For the next step toward a global TWSTT network, we are also planning to connect the Asia-Pacific TWSTT link to European and North American time and frequency laboratories.  Such a network of precise time transfer links will not only be useful in contributing to TAI and UTC but will also provide an accurate time transfer reference for other precise time transfer techniques such as the GPS carrier phase method.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper32">Paper 32</a></P>
+<P ALIGN="CENTER">CALIBRATION OF THREE EUROPEAN TWSTFT STATIONS USING A PORTABLE STATION AND COMPARISON OF TWSTFT AND GPS COMMON-VIEW MEASUREMENT RESULT</P>
+<CENTER>
+<P>D. Kirchner
+<br>Technische Universit&auml;t Graz
+<br>Graz, Austria
+<P>H. Ressler
+<br>Space Research Institute
+<br>Graz, Austria
+<br>P. Hetzel
+<br>Physikalish-Technische Bundesanstalt
+<br>Braunschweig, Germany
+<P>A. Soering
+<br>Deutsche Telekom AG
+<br>Darmstadt, Germany
+<P>W. Lewandowski
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Since 1997 Two-Way Satellite Time and Frequency Transfer (TWSTFT) links have operated on a regular basis between six European laboratories and also between the European laboratories and two laboratories in the USA.  All links employ Ku-band channels of the same INTELSAT satellite positioned at 307 deg. E., and the measurement data are available in a format published in a draft revision of recommendation ITU-R TF.1153.  The laboratories are contributing to the international atomic time scale and are carrying out GPS observations according to the BIPM common-view schedules.  Initially, some of the TWSTFT links were calibrated using the difference between the respective time scales as published by the BIPM in Circular T.  In order to get actual GPS calibrations, which could also be used to calibrate the TWSTFT measurements, a series of GPS receiver transportations were organized by the BIPM starting during the summer of 1997.  In July 1998, a calibration trip using a portable TWSTFT station developed at the Technical University of Graz (TUG) was carried out among three of the above mentioned laboratories to exploit the accuracy potential of the TWSTFT technique.  At the same time, during the course of one of the GPS receiver trips, GPS calibrations were carried out between these laboratories.  </P>
+<P ALIGN="JUSTIFY">After a brief description of the portable station and a discussion of different approaches to use it for station calibration, the results are presented and analyzed.  The calibrated TWSTFT measurements are compared with the GPS measurements, calibrated by the GPS receiver trip, carried out at the same time as the TWSTFT calibration and by the previous GPS receiver trips.  The findings are discussed and anticipated activities using the portable station are presented.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper33">Paper 33</a></P>
+<P ALIGN="CENTER">DETERMINATION OF GEOSTATIONARY SATELLITE ORBITS AND THE SAGNAC EFFECT FOR TWO-WAY TIME TRANSFER</P>
+<CENTER>
+<P>Lindsay Koshgarian and James DeYoung
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Range data from Two Way Satellite Time Transfer (TWSTT) experiments at several earth stations were used to determine the orbit of a TWSTT satellite, which will allow an improved computation of the Sagnac effect and other velocity-related relativistic effects.</P>
+<P ALIGN="JUSTIFY">By taking a reasonable initial geostationary position and velocity and performing orbital integration of these elements, we determine a reference orbit for the satellite.  We find the difference between the satellite position given by the ranges and the position given by the reference orbit.  The improved final orbit allows real-time calculations of the satellite's position and velocity in its orbit.</P>
+<P ALIGN="JUSTIFY">After applying the Sagnac correction computed by the improved orbits to the TWSTT data, we evaluated the improvement in the timing data.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper34">Paper 34</a></P>
+<P>TWO-WAY SATELLITE TIME TRANSFER
+<br>USING INTELSAT 706 ON A REGULAR BASIS:
+<br>STATUS AND DATA EVALUATION
+<CENTER>
+<P>J. Azoubib
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>D. Kirchner
+<br>Technische Universit&auml;t
+<br>Graz, Austria
+<P>W. Lewandowski
+<br>Bureau International des Poids et Mesures
+<br>S&egrave;vres, France
+<P>P. Hetzel
+<br>Physikalisch-Technische Bundesanstalt
+<br>Braunschweig, Germany
+<P>W. J. Klepczynski
+<br>Innovative Solutions International
+<br>Vienna, Virginia
+<P>D. Matsakis
+<br>U.S. Naval Observatory
+<br>Washington, D.C.
+<P>T. Parker
+<br>National Institute of Standards and Technology
+<br>Boulder, CO
+<P>H. Ressler
+<br>Space Research Institute
+<br>Graz, Austria
+<P>A. Soering
+<br>Deutsche Telekom AG
+<br>Darmstadt, Germany
+<P>G. De Jong
+<br>Van Swinden Laboratorium
+<br>Delft, The Netherlands
+<P>F. Baumont
+<br>Observatoire de la C&ocirc;te d'Azur
+<br>Grasse, France
+<P>J. Davis
+<br>National Physical Laboratory
+<br>Teddington, UK
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Two-Way Satellite Time Transfer (TWSTT) observations in Europe and between Europe and the United States resumed on 20 January 1997, using the INTELSAT 706 satellite on a regular basis.  Three one-hour observation windows, on Monday, Wednesday and Friday, were purchased from INTELSAT.  Within these windows two-minute TWSTT measurements were performed between participating stations according to a schedule.  Six European and two US stations observe regularly.  Two other European stations are about to become operational.  No significant problems concerning the satellite have been encountered.  An International Telemetry Union (ITU) standard format is used for the exchange of data.  The exchange and storage of data are easy as the files are small.  Data are available within two days.</P>
+<P ALIGN="JUSTIFY">Evaluation of the TWSTT data reported in this paper included its comparison with GPS common-view time transfer data for selected continental and intercontinental links over a period of one and a half years.  The differences between the GPS and the TWSTT data for a continental baseline show a strong seasonal effect.  The data from intercontinental comparisons between GPS and TWSTT have a larger scatter than for continental comparison, and show less pronounced seasonal effects.  The two techniques can be compared either by using the raw TWSTT data, or by interpolating them to standard dates.  Both approaches are discussed.  For intercontinental links the results of the comparison also depend on whether or not the GPS data include precise ephemerides and ionospheric measurements.  The origin of the discrepancy between the two techniques is discussed in detail.</P>
+<P ALIGN="JUSTIFY">The calibration and data interpolation techniques utilized are detailed elsewhere and are only briefly mentioned here.  </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper35">Paper 35</a></P>
+<P ALIGN="CENTER">FREQUENCY TRANSFER AND CLEANUP SYSTEM FOR ULTRA-HIGH STABILITY AT BOTH LONG AND SHORT TIMES FOR THE CASSINI Ka-BAND EXPERIMENT </P>
+<P>M.D. Calhoun, G.J. Dick and R.T. Wang
+<br>Jet Propulsion Laboratory
+<br>Pasadena, CA
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">New radio science experiments, including a gravitational wave search and several atmospheric occultation studies, are planned for the CASSINI Ka-band experiment.  These experiments are made possible by reduced solar-induced phase fluctuations at the high frequency (32GHz) of the radio link between Earth and spacecraft.  In order to match the improved link performance, a significant upgrade is underway to improve the frequency stability capabilities of NASA’s Deep Space Network (DSN).  Significant improvements are being undertaken in many areas, including antenna vibration, and (wet) tropospheric variation, in addition to frequency generation and distribution.</P>
+<P ALIGN="JUSTIFY">This paper describes the design and development of a system to provide a reference signal with the highest possible frequency stability for long-term, short-term and phase noise, at an antenna (DSS 25) that is remote from the frequency standards room at SPC-10 at the DSN Goldstone site.  Two new technologies were developed in order to meet the very tight requirements.  They are: 1) A Stabilized Fiber Optic Distribution Assembly (SFODA) that includes active compensation of thermal variations to transfer long-term stability over 16 km of ordinary fiber-optic cable, and 2) a Compensated Sapphire Oscillator (CSO) which provides short-term performance in a cryo-cooled sapphire oscillator with ultra-high short-term stability and low phase noise. </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper36">Paper 36</a></P>
+<P ALIGN="CENTER">EFFECT OF CLOCK NOISE ON THE SYNCHRONIZATION PERFORMANCE OF CONSTANT BIT RATE (CBR) TRAFFIC IN AN ATM NETWORK</P>
+<CENTER>
+<P>T. (Jay) Jayawarenda and Christopher Olszewski
+<br>AT&amp;T Labs
+<br>Holmdel, NJ
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">An increasingly popular technique for transmission of voice, video and data traffic is the Asynchronous Transfer Mode (ATM), in which all transmitted information is divided into small segments and sent in 53-byte cells across an ATM network.  The ability to carry different types of traffic simultaneously over a single common network is one of ATM’s main attractions.  </P>
+<P ALIGN="JUSTIFY">When Constant Bit Rate (CBR) traffic with an associated frequency, i.e. bit rate, is carried over an ATM network, the frequency needs to be reconstructed at the exit node of the ATM network.  One method for reconstructing this frequency is the Synchronous Residual Time Stamp (SRTS) method.  This method relies on two synchronized clocks, that is, two clocks having the same average frequency, one at the entrance and the other at the exit of the ATM network.  Bits of the incoming CBR traffic are periodically assigned a time stamp upon entrance  to the ATM network.  This time stamp is sent along with the information bits to the exit node of the ATM network.  There, the time stamp and exit clock are used to recreate the frequency of the signal leaving the ATM network.  Although cells are generated at the entrance node of the ATM network periodically, their transit times through the network are not constant due to Cell Delay Variation (CDV) encountered within the network.  A key advantage of the SRTS scheme is that the synchronization performance of the signal exiting the ATM network is largely insensitive to CDV.  However, the synchronization performance of the signal is affected by the behavior of the clocks at the entrance and exit of the ATM network.  </P>
+<P ALIGN="JUSTIFY">This paper quantifies the synchronization performance of the recovered signal when different levels of noise are present in the signal source clock, the clock at the entrance to the ATM network, or the clock at the exit of the ATM network.  Simulations were performed to study the effects of these noise sources separately and in combination.  The SRTS scheme itself generates noise with a characteristic time deviation (TDEV) signature.  As the noises of the clocks rise above certain levels, the inherent noise from the SRTS scheme becomes masked.</P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper37">Paper 37</a></P>
+<P ALIGN="CENTER">AN OVERVIEW OF THE TIME DISTRIBUTION SYSTEM FOR THE WIDE AREA AUGMENTATION SYSTEM (WAAS)</P>
+<CENTER>
+<P>W. J. Klepczynski
+<br>Innovative Solutions International, Inc.
+<br>Vienna, VA
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">The WAAS maintains its own local time scale, WAAS Network Time (WNT) and synchronizes it to GPS time.  This is necessary in order to derive differential corrections to improve the accuracy obtainable from the GPS Standard Positioning Service.  </P>
+<P ALIGN="JUSTIFY">Besides providing navigation, the secondary mission of the WAAS is to provide UTC.  This will be done by comparing WNT, which is synchronized to GPS Time, with UTC as maintained by the U.S. Naval Observatory (USNO).  The comparison will be done by a Time Distribution System (TDS) which will be located at the USNO.  The TDS will determine the offset of WNT from UTC (USNO).  The values determined will be transmitted to the WAAS Master Station where they will be incorporated into the WAAS transmitted navigation message.</P>
+<P ALIGN="JUSTIFY">This paper will give an overview of the TDS which is being developed for this purpose.   </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper38">Paper 38</a></P>
+<P ALIGN="CENTER">ON THE PROBLEMS OF SYSTEM TIME GENERATION FOR A FUTURE GNSS2</P>
+<CENTER>
+<P>Joerg H. Hahn, DLR
+<br>Institut f&uuml;r Hochfrequenztechnikk
+<br>Oberpfaffenhofen, Germany
+<P>Patrizia Tavella
+<br>Istituto Elettrotecnico Nazionale G. Ferraris
+<br>Torino, Italy
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">For any satellite navigation system clock synchronization to a system, common time is a requirement of utmost importance.  There are some features of particular interest: clock type, clock comparison measurement, System Time Scale (STS) generation, measurement and update rate.</P>
+<P ALIGN="JUSTIFY">For clock comparison one-and-two-way methods can be applied.  In the present conventional GPS &amp; GLONASS systems, only the first method is actively in use.  Improvements in several areas are expected in scenarios applying two-way and inter-satellite-links.  For generation of the system time with one or some chosen types of clocks the clock ensemble solution is the most stable and reliable.  There are several and sometimes different constraints for the realization of a STS for navigation or timing users.  This concerns such characteristics as stability, accuracy, real-time availability, and integrity.</P>
+<P ALIGN="JUSTIFY">In this paper we discuss the impact of clock comparison measurements and of STS generation peculiarities on the development of a GNSS2.  We give simulation results of a STS and induced navigation/timing user clock error in a possible GNSS scenario, defined by 15 Inclined Geosynchronous Satellites each equipped with a Rb frequency standard and three Geostationary Satellites each equipped with a H-maser, and four ground stations each equipped with a Cs frequency standard, where both inter-satellite and two-way links are adopted.  It will be shown that for the navigation user the error contribution due to the clocks can reach a value of about 0.7 ns (1</FONT><FONT FACE="Symbol" SIZE=2>s</FONT>), with an update rate of 30 min in this particular scenario.  Satellite constellations equipped with H-masers give better results.  For time dissemination purposes, the UTC steering policy has to be addressed, and an error reaching 27 ns (1</FONT><FONT FACE="Symbol" SIZE=2>s</FONT>) is expected in the above scenario.  </P>
+<I><P ALIGN="JUSTIFY">This work was partially supported by ESA contract, Ref.No. 12704/98/NL/DS.</P></I>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper39">Paper 39</a></P>
+<P ALIGN="CENTER">THE ROLE OF TIME AND FREQUENCY IN THE MTSAT SATELLITE AUGMENTATION SYSTEM (MSAS)</P>
+<CENTER>
+<P>Aileen Nii
+<br>Innovative Solutions International, Inc.
+<br>Vienna, VA 22182
+<P>Toru Ishita
+<br>NEC Corporation
+<br>Fuchu, Tokyo 183 Japan
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Time and frequency play a very important role within the MSAS. </P>
+<P ALIGN="JUSTIFY">The MSAS is a Satellite Based Augmentation System (SBAS) which collects data form the NAVSTAR Global Positioning System (GPS), provides an independent ranging signal to supplement the navigation signals from the GPS, provides differential data to improve the navigation capability of the GPS, and provides the offset of MSAS Network Time (MNT) from UTC.  The accuracy and precision attainable by MSAS is dependent on the performance of the time and frequency sub-systems within MSAS.  &#9;</P>
+<P ALIGN="JUSTIFY">This paper will discuss:</P>
+<P ALIGN="JUSTIFY">1) The manner in which the data recording system time tags its observations.</P>
+<P ALIGN="JUSTIFY">2) The manner by which MNT is derived and synchronized to GPS Time.</P>
+<P ALIGN="JUSTIFY">3) The manner used to control the transmission of the MSAS navigation message      from the MTSAT.</P>
+<P ALIGN="JUSTIFY">4) The procedures by which the offsets of MNT from UTC will be determined. </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper40">Paper 40</a></P>
+<P ALIGN="CENTER">THE ROLE OF TIME AND FREQUENCY IN THE EUROPEAN GEOSTATIONARY NAVIGATION OVERLAY SYSTEM (EGNOS)</P>
+<CENTER>
+<P>A. Job
+<br>European Space Agency
+<P>J.M. Pieplu
+<br>ALCATEL
+<P>A. Batchelor
+<br>RACAL - Research Limited, Ltd.
+<P>M. Brunet
+<br>Centre National d'Etudes Spatiales
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">Time and frequency play a very important role within EGNOS.  The EGNOS is a Satellite Based Augmentation System (SBAS) which collects data from the NAVSTAR Global Positioning System (GPS), provides an independent ranging signal to supplement the navigation signals, provides differential data to improve navigation capability, and provides the offset of EGNOS Network Time (ENT) from UTC.  The paper will discuss the role of time in different sub-systems and the manner by which ENT is derived and synchronized to GPS Time.  The transmission of the EGNOS navigation message will be outlined.  </P>
+
+<HR>
+
+<B><P ALIGN="CENTER"><a name="paper41">Paper 41</a></P>
+<P ALIGN="CENTER">LORAN-C TIME OF TRANSMISSION MONITOR</P>
+<CENTER>
+<P>LT Lee S. Putnam, USCG
+<br>U.S. Coast Guard Navigation Center
+<br>Alexandria, Virginia
+<P>ABSTRACT</P>
+</B></CENTER>
+<P ALIGN="JUSTIFY">In the 1970s, the U.S. Coast Guard began dissemination of Coordinated Universal Time through synchronization of Loran-C timing with UTC (USNO).  During the 1970s and early 1980s Loran-C was synchronized to within 2.5 microseconds of UTC.  In 1987 Congress mandated that synchronization of Loran-C master transmissions to be within 100 nanoseconds of UTC.  The Coast Guard has found it difficult to meet this requirement.  Until recently, measurement methods available  to determine short-term offsets between Loran-C time and UTC were either less accurate than what was needed or too costly for system wide implementation.  </P>
+<P ALIGN="JUSTIFY">The Coast Guard Loran Support Unit, located in Wildwood, New Jersey, has developed a Time of Transmission Monitor suite that provides a degree of accuracy and precision necessary for control of Loran-C timing to well within the 100 nanosecond requirement.  System-wide implementation of the Time of Transmission Monitor is scheduled for fiscal 1999.  This paper will present: an overview of the design of the equipment suite, report on the efforts made thus far in the implementation of the equipment suite, and discuss the potential improvements in timing that will be realized through use of the suite.</P>
+
+</BODY>
+</HTML>

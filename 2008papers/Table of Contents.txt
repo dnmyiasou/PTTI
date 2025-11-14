@@ -1,0 +1,519 @@
+40th Annual 
+Precise Time and Time Interval (PTTI)  
+Systems and Applications Meeting 
+
+Proceedings of a meeting sponsored by  
+the U.S. Naval Observatory 
+the U.S. Naval Research Laboratory  
+the NASA Jet Propulsion Laboratory  
+the Defense Information Systems Agency  
+and the U.S. Coast Guard Navigation Center  
+
+and held at 
+the Hyatt Regency Hotel 
+at Reston, Virginia  
+1 – 4 December 2008 
+
+Lee A. Breakiron, Editor 
+
+
+U.S. Naval Observatory 
+EXECUTIVE COMMITTEE 
+DR. JOSEPH D. WHITE, CHAIRMAN 
+U.S. Naval Research Laboratory 
+MR. PAOLO BASSO-LUCA DR. DENNIS D. MCCARTHY 
+Defense Information Systems Agency U.S. Naval Observatory 
+MR. RONALD L. BEARD         MR. GEORGE SHATON 
+U.S. Naval Research Laboratory Department of Defense 
+CAPT. ED THIEDEMAN DR. LEE A. BREAKIRON
+U.S. Coast Guard Navigation Center U.S. Naval Observatory 
+MR. RICHARD C. CAMP DR. ROBERT L. TJOELKER 
+Defense Information Systems Agency NASA Jet Propulsion Laboratory 
+CWO DAVID A. HOLDER MS. FRANCINE M. VANNICOLA 
+U.S. Coast Guard Navigation Center U.S. Naval Research Laboratory 
+ADMINISTRATIVE ASSISTANCE 
+MS. NICOLETTE M. JARDINE 
+
+U.S. Naval Research Laboratory 
+OFFICERS 
+GENERAL CHAIRMAN 
+DR. JAMES C. CAMPARO 
+The Aerospace Corporation 
+
+TECHNICAL PROGRAM COMMITTEE CHAIRMAN  
+MR. WARREN WALLS 
+U.S. Naval Observatory 
+
+TECHNICAL PROGRAM COMMITTEE CO-CHAIRMAN 
+DR. LEO A. MALLETTE 
+Boeing 
+
+TECHNICAL PROGRAM ADVISOR 
+MR. S. CLARK WARDRIP 
+GSGNA, Inc.  
+
+EDITORIAL COMMITTEE CHAIRMAN 
+DR. LEE A. BREAKIRON 
+U.S. Naval Observatory 
+
+FINANCE COMMITTEE 
+DR. LEE A. BREAKIRON, TREASURER 
+U.S. Naval Observatory 
+MR. RONALD L. BEARDDR. JOSEPH D. WHITE 
+U.S. Naval Research Laboratory U.S. Naval Research Laboratory 
+EXHIBITS AND PUBLICITY COMMITTEE 
+MR. GARY GEIL, CHAIRMAN 
+Geil Marketing Associates, Inc.  
+MR. DONALD H. MITCHELL, ASSISTANT CHAIRMAN 
+Geil Marketing Associates, Inc.  
+
+TECHNICAL ASSISTANCE 
+CWO DAVID A. HOLDER 
+U.S. Coast Guard Navigation Center 
+iii 
+DISTINGUISHED PTTI SERVICE AWARD COMMITTEE 
+DR. JOSEPH D. WHITE, CHAIRMAN 
+U.S. Naval Research Laboratory 
+DR. DENNIS D. MCCARTHY DR. LARA SCHMIDT
+U.S. Naval Observatory  RAND Corporation 
+MR. DONALD H. MITCHELL PROF. JACQUES VANIER 
+Geil Marketing Associates, Inc. University of Montreal, Canada 
+PAST RECIPIENTS OF THE 
+DISTINGUISHED PTTI SERVICE AWARD 
+
+
+1994 
+DR. GERNOT M. R. WINKLER 
+
+U.S. Naval Observatory (Ret.) 
+
+1995 
+DR. JAMES A. BARNES 
+
+National Institute of Standards and Technology (Ret.) 
+1996 
+PROF. SIGFRIDO M. LESCHIUTTA 
+
+Politecnico di Torino and Istituto Elettrotecnico Nazionale “G. Ferraris,” Italy 
+
+1997 
+PROF. BERNARD R. GUINOT 
+
+Bureau International des Poids et 
+ Mesures (Ret.) and Honorary 
+Astronomer, Paris Observatory, France    
+
+
+1998 
+DR. JACQUES VANIER 
+
+National Research Council, Canada (Ret.) 
+
+
+1999 
+DR. LEONARD S. CUTLER
+
+ Agilent Technologies 
+2000 
+MR. ROGER EASTON 
+
+U.S. Naval Research Laboratory (Ret.) and Robarco 
+
+
+2001 
+DR. ROBERT F. C. VESSOT 
+
+Smithsonian Astrophysical 
+Observatory (Ret.) 
+
+2002 
+MR. HARRY PETERS 
+
+Sigma Tau, Inc. (Ret.)  
+
+
+2003 
+MR. S. CLARK WARDRIP 
+
+NASA Goddard Space Flight Center (Ret.)  
+2005 
+DR. NORMAN F. RAMSEY 
+
+Harvard University 
+
+2006 
+PROF. DAVID L. MILLS 
+
+University of Delaware 
+
+2007 
+DR. R. MICHAEL GARVEY 
+
+Symmetricom 
+ADVISORY BOARD MEMBERS 
+MR. S. CLARK WARDRIP, CHAIRMAN 
+
+GSGNA, Inc.  
+MR. MARTIN B. BLOCH, TREASURER 
+Frequency Electronics, Inc. 
+Prof. Carroll O. Alley 
+University of Maryland 
+
+Dr. Edoardo Detoma 
+Sistemi Elettronici Per l’Automazione, Italy                        
+
+Mrs. Sheila C. Faulkner 
+GSGNA, Inc. 
+
+Dr. Henry F. Fliegel         
+The Aerospace Corporation 
+
+Mr. Hugo Fruehauf       
+Frequency Electronics, Inc.       
+
+Dr. R. Michael Garvey 
+Symmetricom
+
+ Mr. Gary Geil        
+Geil Marketing Associates, Inc. 
+
+Dr. William J. Klepczynski 
+
+U.S. Naval Observatory (Ret.)         
+Mr. Werner R. Lange 
+Lange-Electronic GmbH 
+
+Dr. Leo A. Mallette 
+Boeing 
+
+Mr. Donald H. Mitchell  
+Geil Marketing Associates, Inc. 
+
+Dr. Bradford W. Parkinson 
+Stanford University 
+
+Dr. Victor S. Reinhardt 
+Raytheon Space and Airborne Systems 
+
+Mr. Pascal Rochat 
+SpectraTime 
+
+Mr. Ronald C. Roloff 
+Geil Marketing Associates, Inc. 
+
+Dr. Lara S. Schmidt  
+
+RAND Corporation 
+
+Dr. Samuel R. Stein 
+Symmetricom 
+
+Prof. Jacques Vanier 
+University of Montreal, Canada 
+
+Dr. C. Andy Wu 
+The Aerospace Corporation 
+
+SESSION I 
+WARREN WALLS 
+
+U.S. Naval Observatory 
+SESSION II 
+PETE LOPEZ 
+
+TRAK Microwave 
+SESSION III 
+GREGORY WEAVER 
+
+Johns Hopkins University 
+SESSION IV 
+KIRK MONTGOMERY 
+
+Symmetricom 
+SESSION V 
+RAIMOND MELKERS 
+
+L3/Titan Corporation 
+SESSION VI 
+PAUL SOTIRIADIS 
+
+Johns Hopkins University 
+SESSION VII 
+GEORGE SHATON 
+
+Department of Defense 
+SESSION CHAIRMAN SESSION VIII 
+KEN SENIOR 
+U.S. Naval Research Laboratory 
+SESSION IX MIHRAN MIRANIAN 
+Johns Hopkins University 
+SESSION X BLAIR FONVILLE 
+U. Naval Observatory 
+SESSION XI 
+S. CLARK WARDRIP 
+CSGNA, Inc. 
+SESSION XII RANDALL ROLLO 
+U.S. Navy 
+SESSION XIII RACHEL EVANS 
+Johns Hopkins University 
+MEETING ARRANGEMENTS 
+Mrs. Sheila Faulkner 
+GSGNA, Inc.  
+
+THE RECEPTIONISTS AT THE 40TH ANNUAL PTTI MEETING 
+WERE: 
+
+Mrs. Brenda Hicks 
+Ms. Nicolette M. Jardine 
+Mrs. Bettye Wardrip 
+
+
+
+
+TABLE OF CONTENTS 
+
+Distinguished PTTI Service Award .................................................. 1 
+
+Presented by  
+Dr. Joseph D. White 
+U.S. Naval Research Laboratory 
+to 
+Dr. Patrizia Tavella 
+Istituto Nazionale di Ricerca Metrologica (INRiM), Italy 
+
+SESSION I 
+MASTER CLOCKS 
+Warren Walls, Chairman 
+U.S. Naval Observatory 
+Coherent Frequency Reference Generation in the NASA Deep Space Network  . . . . . . . . . . . . . . . . . . . 3 
+B. Tucker, J. Lauf, J. Gonzalez, R. Hamell, W. Diener, and R. L. Tjoelker, Jet Propulsion
+     Laboratory, California Institute of Technology 
+
+The Master Clock Building at USNO Infrastucture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  17 
+W. Walls, U.S. Naval Observatory 
+SESSION II 
+PTTI VENDOR PRESENTATIONS 
+Pete Lopez, Chairman 
+TRAK Microwave 
+
+Presentations were made by Brandywine Communications; Brilliant Instruments, Inc.; Brilliant Telecommunications; Frequency Electronics, Inc.; Faruno Electric Co.; Lange-Electronic GmbH; Morion, Inc.; Pendulum Instruments, Inc.; Pik Time Systems; Spectracom Corporation; SpectraDynamics, Inc.; SpectraTime; Symmetricom, Inc.; Timetech GmbH; and TRAK Microwave Corporation 
+SESSION III 
+SPACE CLOCKS 
+Gregory Weaver, Chairman 
+Johns Hopkins University 
+
+History and Performance of FEI Space-Class Oscillators  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+ M. Bloch, O. Mancini, and T. McClelland, Frequency Electronics, Inc. 
+Ultrastable Oscillators for Space Applications  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  51 
+P. Cash, D. Emmons, and J. Welgemoed, Symmetricom, Inc. 
+Enhancing the Art of Space Operations – Progress in JHU/APL Ultra-Stable Oscillator      Capabilities  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  57 
+G. Weaver, M. Reinhart, and R. Wallis, Johns Hopkins University Applied Physics Laboratory 
+In-Orbit Performance Assessment of GIOVE Clocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  69
+     P. Waller, F. Gonzalez, J. Hahn, S. Binda, European Space Agency-ESTEC, The Netherlands; 
+R. Piriz, I. Hidalgo, G. Tobias, GMV, Madrid, Spain; I. Sesia, P. Tavella, and G. Cerretto, 
+     Istituto Nazionale di Ricerca Metrologica (INRiM) Italy 
+
+Standardizing Space Ovenized Crystal Oscillators for Lower Cost and Faster Delivery . . . . . . . . . . .   83 
+J. Humphrey, L. Ronchetti, and J. Richardson, Wenzel Associates, Inc. 
+SESSION IV 
+TIME AND FREQUENCY TRANSFER (PART I) 
+Kirk Montgomery, Chairman 
+Symmetricom 
+
+Time Transfer by Laser Link - T2L2: An Opportunity to Calibrate RF Links  . .. . . . . . . . . . . . . . . . .   95
+ P. Guillemot, CNES – French Space Agency; E. Samain, P. Vrancken, P. Exertier, Observatoire 
+     de la Côte d’Azur, France; and S. Leon, CNES – French Space Agency 
+
+Phase Transfer for Radio Astronomy Interferometers, over Installed Fiber Networks, Using a Round-TripCorrection System   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107 
+R. McCool, University of Manchester, Jodrell Bank Centre for Astrophysics, UK; M. Bentley,
+ S. Garrington, R. Spencer, R. Davis, and B. Anderson, Jodrell Bank Observatory, UK 
+Evaluation of Output Phase Stability in a Fiber-Optic Two-Way Frequency Distribution on System   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . 117 
+S. Ebenhag, P. Hedekvist, C. Rieck, H. Skoogh, P. Jarlemark, and K. Jaldehag, SP Technical 
+     Research Institute of Sweden 
+
+Development of Frequency Transfer via Optical Fiber Link at NICT  . . . . . . . . . . . . . . . . . . . . . . . . . . 125 
+M. Kumagai, M. Fujieda, T. Gotoh, and M. Hosokawa, National Institute of Information and 
+     Communications Technology, Japan 
+
+SESSION V 
+POSTER SESSION 
+(Papers have been reassigned in these Proceedings to Sessions IX, XII, and XIV.) 
+
+SESSION VI 
+ADVANCED CLOCKS 
+
+Paul Sotiriadis, Chairman 
+Johns Hopkins University 
+
+Recent Progress in Silicon MEMS Oscillators  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135 
+W. Hsu, Discera, Inc. 
+Towards an Integrated Optic Phase-Locked Oscillator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   147 
+M. Watts, Applied Photonic Microsystems, Sandia National Labs; J. Kim, F. Kaertner,
+     Massachusetts Institute of Technology; A. Lentine, and W. Zortman, Applied Photonic 
+     Microsystems, Sandia National Labs 
+
+Progress on a Portable Rubidium Fountain FrequencyStandard  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 157 
+P. Kunz, T. Heavner, and S. Jefferts, National Institute of Standards and Technology 
+SESSION VII 
+
+
+NTP AND IEEE 1588 
+George Shaton, Chairman 
+Department of Defense 
+
+Studying Network Timing with Precision Packet Delay Measurements  . . . . . . . . . . . . . . . . . . . . . . .  165 
+L. Cosart, Symmetricom, Inc. 
+Next Steps in Network Time Synchronization for Navy Shipboard Applications  . . . . . . . . . . . . . . . .  187 
+K. O’Donoghue, M. Glass, and T. Plunkett, NAVSEA Surface Warfare Center 
+Synchronization in Packet Networks: Timing Metrics and Monitoring  . . . . . . . . . . . . . . . . . . . . . . . .  197 
+C. Barry and S. Bangalore, Brilliant Telecommunications 
+SESSION VIII 
+TIME SCALES AND ALGORITHMS (PART I) 
+Ken Senior, Chairman 
+U.S. Naval Research Laboratory 
+Steering a Time Scale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 205 
+J. Levine, National Institute of Standards and Technology 
+Estimating UTC – UTC (APL) at the JHU Applied Physics Laboratory . . . . . . . . . . . . . . . . . . . . . . . 219 
+M. Miranian, G. Weaver, and M. Reinhart, Johns Hopkins University 
+A Prototype Cesium Clock Ensemble for the LORAN-C RadioNavigation System  . . . . . . . . . . . . . .  227 
+A. Dahlen, United States Coast Guard 
+SESSION IX 
+TIME SCALES AND ALGORITHMS (PART II) 
+Mihran Miranian, Chairman 
+Johns Hopkins University 
+
+Frequency Jump Detection and Analysis  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 241 
+W. Riley, Hamilton Technical Services 
+The GPS Toolkit: Open Source Clock Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  255 
+T. Craddock, R. Broderick, C. Petersen, and A. Hu, The University of Texas at Austin  
+Separating the Variances of a Two-Component Clock Model by Sequential MINQUE  . . . . . . . . . . .  275 
+C. Greenhall, Jet Propulsion Laboratory, California Institute of Technology 
+Using Sign Patterns to Distinguish Feared Clock Events  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  287 
+M. Suess and U. Grunert, German Aerospace Centre (DLR) 
+Phase Noise Model for an Array of Combined Sources Using Direct Digital Synthesis (DDS) . . . . . 301 
+T. Comberiate, J. Van’t Hof, L. Ruppalt, K. Lauritzen, and S. Talisa, Johns Hopkins University 
+SESSION X 
+SATELLITE NAVIGATION SYSTEMS 
+Blair Fonville, Chairman 
+U.S. Naval Observatory 
+GPS Changes before and after Implementation of the Architecture Evolution Plan  . . . . . . . . . . . . . .  315 
+M. Weiss and A. Masarie, National Institute of Standards and Technology (NIST) 
+AF/NGA GPS Monitor Station High-Performance Cesium Frequency Standard Stability 2007/2008: FromNGA Kalman Filter Clock Estimates  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  335
+ D. Manning, National Geospatial-Intelligence Agency, and C. Petersen, The University of
+ Texas at Austin 
+
+GPS Receiver Performance Test at ROA  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   349 
+H. Esteban, J. Palacio, F. Galindo, and J. Garate, Real Instituto y Observatorio de la Armada, 
+Spain 
+
+Estimation and Prediction of the GIOVE Clocks  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..   361 
+I. Hidalgo, R. Píriz, A. Mozo, G. Tobias, GMV, Spain; P. Tavella, I. Sesia, G. Cerretto, 
+     Istituto Nazionale di Ricerca Metrologica (INRiM), Italy; P. Waller, F. González, and 
+
+J. Hahn, European Space Agency/ESTEC 
+Remote Synchronization Experiments for Future Quasi-Zenith Satellite System Using Current Geostationary Satellites  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 375 
+T. Iwata, T. Suzuyama, M. Imae, National Institute of Advanced Industrial Science and 
+     Technology (AIST), Japan; Y. Hashibe, Space Engineering Development Co., Ltd., Japan;
+     and M. Fukui, University of Tokyo, Japan 
+
+SESSION XI 
+TIME AND FREQUENCY TRANSFER (PART II) 
+S. Clark Wardrip, Chairman 
+GSGNA, Inc. 
+
+Influence of Ionosphere Perturbation in GPS Time and Frequency Transfer  . . . . . . . . . . . . . . . . . . . .  387
+ S. Pireaux, P. Defraigne, N. Bergeot, Q. Baire, and C. Bruyninx, Royal Observatory of 
+Belgium 
+
+GPS Carrier-Phase Time and Frequency Transfer with Different Versions of Precise Point 
+Positioning Software  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 403 
+T. Feldmann, D. Piester, A. Bauch, Physikalisch-Technische Bundesanstalt (PTB), Germany;
+     and T. Gotoh, National Institute of Information and Communications Technology (NICT), 
+Japan 
+
+Advances in Time and Frequency Transfer from Dual-Frequency GPS Pseudorange and Carrier-Phase Observations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . 415 
+F. Lahaye, P. Collins, Natural Resources Canada (NRCan); G. Cerretto, and P. Tavella, 
+     Istituto Nazionale di Ricerca Metrologica (INRiM), Italy 
+
+Remote Frequency Calibration Using GPS Carrier-Phase Observation Measurement at TL  . . . . . . . . 433 
+P. Chang, S. Lin, and C. Liao, National Standard Time & Frequency Laboratory, Taiwan 
+Statistical Constraints on Station Clock Parameters in the NRCan PPP Estimation Process  . . . . . . . . 441 
+G. Cerretto, P. Tavella, Istituto Nazionale di Ricerca Metrologica (INRiM), Italy; and 
+F. Lahaye, Natural Resources Canada (NRCan) 
+Two-Way Time Transfer with Dual Pseudo-random Noise Codes  . . . . . . . . . . . . . . . . . . . . . . . . . . .  459
+ T. Gotoh and J. Amagai, National Institute of Information and Communications Technology,
+ Japan 
+
+Calibration of TWSTFT Links through the Triangle Closure Condition  . . . . . . . . . . . . . . . . . . . . . . . 467 
+Z. Jiang, W. Lewandowski, Bureau International des Poids et Mesures (BIPM), France, and
+ D. Piester, Physikalisch-Technische Bundesanstalt (PTB), Germany 
+SESSION XII 
+PTTI APPLICATIONS 
+Randall Rollo, Chairman 
+United States Navy 
+
+Global Positioning System Timing Criticality Assessment - Preliminary Performance Results  . . . . .  485 
+J. Carroll, John A. Volpe National Transportation Systems Center, and K. Montgomery,
+     Symmetricom, Inc. 
+
+PTTI Capabilities of the Modernized LORAN System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  507
+ K. Montgomery, Symmetricom, Inc., and M. Lombardi, National Institute of Standards and 
+     Technology (NIST) 
+
+Locking a Rubidium Oscillator to a Remote Time Scale Using Real-Time Common-View GPS Measurement  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 527 
+M. Lombardi, National Institute of Standards and Technology (NIST), and A. Dahlen, 
+     United States Coast Guard 
+
+Calibration of the BEV GPS Receiver by Using TWSTFT  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  543 
+A. Niessner, W. Mache, Bundesamt für Eich- und Vermessungswesen, Austria; B. Blanzano, 
+O. Koudelka, Joanneum Research Forschungsgesellschaft m.b.H., Austria; J. Becker, 
+D. Piester, Physikalisch-Technische Bundesanstalt, Germany; Z. Jiang, and F. Arias, Bureau 
+International des Poids et Mesures, France 
+
+Residual Vibration-Induced PM Noise of a Rigid Optical Fiber Spool  . . . . . . . . . . . . . . . . . . . . . . . .   549
+ J. Taylor, C. Nelson, A. Hati, N. Ashby, and D. Howe, National Institute of Standards and 
+     Technology (NIST) 
+
+Novel Tiltmeter for Monitoring Angle Shift in Incident Waves  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  559 
+S. Taghavi-Larigani and J. VanZyl, Jet Propulsion Laboratory, California Institute of
+     Technology 
+
+SESSION XIII 
+TIME AND FREQUENCY TRANSFER (PART III) 
+Rachel Evans, Chairman 
+Johns Hopkins University 
+
+Time Transfer from Combined Analysis of GPS and TWSTFT Data  . . . . . . . . . . . . . . . . . . . . . . . . . 565 
+P. Defraigne, Royal Observatory of Belgium (ROB); M. Carmen Martínez, University of
+     Alicante, Spain; and Z. Jiang, Bureau International des Poids et Mesures, France 
+
+Calibrating GPS with TWSTFT for Accurate Time Transfer  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 577 
+Z. Jiang, Bureau International des Poids et Mesures (BIPM), France, and A. Niessner,
+     Bundesamt für Eich-und Vermessungswesen, Austria 
+
+Two-Way Satellite Time and Frequency (TWSTFT) Calibration Constancy from Closure Sums  . . . 587 
+D. Matsakis, L. Breakiron, U.S. Naval Observatory; A. Bauch, D. Piester, 
+Physikalisch-Technische Bundesanstalt, Germany; and Z. Jiang, Bureau International des 
+     Poids et Mesures, France 
+
+SESSION XIV 
+LABORATORY ACTIVITIES AND REPORTS 
+Time and Frequency Activities at the U.S. Naval Observatory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 605 
+D. Matsakis, U.S. Naval Observatory 
+Time and Frequency Transfer Activities at NIST  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 623 
+V. Zhang and M. Lombardi, National Institute of Standards and Technology (NIST) Timing Activities at INRIM in the Frame of the Galileo Project  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  641 3 
+I. Sesia, G. Cerretto, and P. Tavella, Istituto Nazionale di Ricerca Metrologica (INRiM), Italy 
+Time Activities at the BIPM  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  657 
+E. Arias and G. Panfilo, Bureau International des Poids et Mesures, France 
+Time and Frequency Activities at the JHU Applied Physics Laboratory  . . . . . . . . . . . . . . . . . . . . . . .  663 
+M. Miranian, G. Weaver, M. Reinhart, and R. Dragonette, Johns Hopkins University 
+Improvement of the TimeScale of NPLI  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  669 
+S. Sharma, P. Banerjee, and A. Chaterjee, National Physical Laboratory, India 
+Database for TA (PL) and UTC (PL) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . 679 
+M. Marszalec, National Institute of Telecommunications (NIT), Poland; A. Czubla, Central 
+     Office of Measures (GUM), Poland; and D. Nerkowski, National Institute of 
+Telecommunications (NIT), Poland 
+
+List of Attendees  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 693 
+
+

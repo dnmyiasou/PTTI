@@ -1,0 +1,31 @@
+#!/bin/ksh
+batch=/var/opt/arch2/ptti/sftp.ptti.batch
+year=1969
+year=2014
+while test $year -lt 2014
+do cd /var/opt/arch2/ptti
+   echo year=$year
+   echo "-cd /var/www/html/ptti/${year}papers" > $batch
+   echo "-get *" >> $batch
+   echo "-bye" >> $batch
+   mkdir $year
+   cd $year
+   pwd
+   sftp -b $batch dnm@tycho.usno.navy.mil 
+   let year=${year}+1
+   bdf .
+done
+year=2000
+while test $year -lt 2020
+do cd /var/opt/arch2/ptti
+   echo year=$year
+   echo "-cd /var/www/html/papers/ts-${year}" > $batch
+   echo "-get *" >> $batch
+   echo "-bye" >> $batch
+   mkdir $year
+   cd $year
+   pwd
+   sftp -b $batch dnm@tycho.usno.navy.mil 
+   let year=${year}+1
+   bdf .
+done

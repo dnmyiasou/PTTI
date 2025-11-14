@@ -1,0 +1,1 @@
+to get first 4 characters of a variables name: lab="`echo $f | cut -c1-4`"

@@ -1,0 +1,380 @@
+TABLE OF CONTENTS
+
+OPENING REMARKS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1
+
+          Dr. Kenneth J. Johnston, Scientific Director, U.S. Naval Observatory
+
+DISTINGUISHED PTTI SERVICE AWARD  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5
+
+ Presented by
+Dr. Joseph White
+U.S. Naval Research Laboratory
+to
+S. Clark Wardrip
+NASA/Goddard Space Flight Center (Ret.)  
+
+CALL TO SESSION  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  9 
+
+          Dr. Lara S. Schmidt, the RAND Corporation
+
+
+SESSION I
+
+PTTI VENDOR PRESENTATIONS
+
+Warren Walls, Chairman
+Femtosecond Systems, Inc.
+
+Presentations were made by Agilent Technologies; Femtosecond Systems, Inc.; GPS 
+Networking; GuideTech; Jtime! Meinberg USA; Locus, Inc.; Lange-Electronic GmbH; 
+Precise Time and Frequency, Inc.; Quartzlock UK, Ltd.; Space Research Centre; 
+Symmetricom, Inc.; Temex Time and Frequency; Timetech GmbH; Timing Solutions 
+Corporation; TRAK Microwave Corporation; and Trimble Navigation
+
+
+SESSION II
+
+STANDARDS LABORATORY REPORTS
+
+Wlodek Lewandowski, Chairman
+Bureau International des Poids et Mesures
+
+The APL Time and Frequency Lab  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  11 
+     R. A. Dragonette, M. Miranian, and M. J. Reinhart, Johns Hopkins University 
+Time and Frequency Activities at the CSIR National Metrology
+Laboratory  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  17 
+     E. L. Marais and B. Theron, CSIR National Metrology Laboratory, South Africa
+
+Time and Frequency Activities at the U.S. Naval Observatory  . . . . . . . . . .  23
+     D. Matsakis, U.S. Naval Observatory
+
+The National Time and Frequency Service of the Russian
+Federation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  39  
+     V. Krutikov, Gosstandard of Russia; V. Kostromin, and N. Koshelyaevsky, Institute of 
+     Metrology for Time and Space FGUP "VNIIFTRI," Russia
+
+Initial Testing of a New GPS Receiver, the PolaRx2, for Time and
+Frequency Transfer Using Dual-frequency Codes and Carrier
+Phases  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  51 
+     P. Defraigne, C. Bruyninx, and F. Roosbeek, Royal Observatory of Belgium
+
+An Update on PTB's Activities in Time and Frequency  . . . . . . . . . . . . . . . .  59
+     D. Piester, A. Bauch, J. Becker, and T. Polewka, Physikalisch-Technische Bundesanstalt,
+     Germany
+
+SESSION III
+
+SATELLITE TIME TRANSFER
+
+John A. Davis, Chairman
+National Physical Laboratory, United Kingdom
+
+The First Two-way Time Transfer Link between Asia and Europe  . . . . .  71
+     H. T. Lin, W. H. Tseng, S.Y. Lin, H. M. Peng, C. S. Liao, Chunghwa Telecom, Taiwan;
+     G. de Jong, E. Kroon, and M. J. Brakel, NMi Van Swinden Laboratorium, The
+     Netherlands
+
+Common-View LORAN-C as a Backup to GPS for Precise Time
+Recovery  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  81 
+     T. Celano, Timing Solutions Corporation; Lt. K. Carroll, U.S. Coast Guard; C. Biggs,
+     Timing Solutions Corporation; and M. Lombardi, National Institute of Standards and
+     Technology
+
+Time Transfer between USNO and PTB:  Operation and Calibration
+Results  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  93 
+     D. Piester, A. Bauch, J. Becker, and T. Polewka, Physikalisch-Technische Bundesanstalt,                                               
+Germany; A. McKinley, and D. Matsakis, U.S. Naval Observatory
+
+SESSION IV-A
+
+GPS AND GALILEO
+
+Christine Hackman, Chairman
+University of Colorado
+
+MCS Zero Age of Data Measurement Techniques  . . . . . . . . . . . . . . . . . . . .  103
+     G. L. Dieter, G. E. Hatten, and J. Taylor, Boeing 
+
+GPS IIR Rubidium Clocks:  In-orbit Performance Aspects  . . . . . . . . . . . .  117 
+     M. Epstein, G. Freed, and J. Rajan, ITT Industries
+
+Uncertainty Estimation on GPS Time Transfer  . . . . . . . . . . . . . . . . . . . . . .  135
+     M. Addouche, F. Meyer, and F. Vernotte, Observatoire de Besançon, France
+
+Extending the Tracking Schedule of a Single-channel GPS Time
+Receiver  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 153
+     J. Palacio, F. J. Galindo, and J. A. Lima, Real Observatorio de la Armada, Spain
+
+
+SESSION IV-B
+
+GPS AND GALILEO
+
+Gary L. Dieter, Chairman
+Boeing
+
+Real-time Time and Frequency Transfer Using GPS Carrier Phase 
+Observations  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  157
+     C. Rieck, P. Jarlemark, K. Jaldehag, and J. Johansson, SP Swedish National Testing and
+     Research Institute
+
+Global Positioning System Constellation Clock Performance  . . . . . . . . . .  173 
+     J. Oaks, K. Senior, M. M. Largay, U.S. Naval Research Laboratory; W. G. Reid,
+     H. Warren, SFA, Inc.; and J. A. Buisson, Antoine Enterprises, Inc.
+
+Time Dissemination and Common View Time Transfer with Galileo:
+How Accurate Will It Be?  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  185 
+     J. Furthner, A. Moudrak, A. Konovaltsev, J. Hammesfahr, and H. Denks, German
+     Aerospace Center
+
+
+Comparing Code Data from Carrier Phase GPS Receivers to Other Time 
+Transfer Methods at the U.S. Naval Observatory  . . . . . . . . . . . . . . . . . . . .  199 
+     H. Chadsey, U.S. Naval Observatory
+
+
+INVITED PAPER
+
+Wavelet Analysis of Clock Noise  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  211
+     Don Percival, University of Washington
+
+
+SESSION V-A
+
+ALGORITHMS AND METHODS
+
+Charles A. Greenhall, Chairman
+NASA/Jet Propulsion Laboratory
+
+Application of the GSF-1 Algorithm to the Near-optimal Timescale
+Prediction of the Hydrogen Maser  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  221 
+     L.-G. Bernier, Swiss Federal Office of Metrology and Accreditation
+
+MTIE and TDEV Analysis of Unevenly Spaced Time Series Data and Its
+Application to Telecommunications Synchronization Measurements  . . . .  237
+     M. Li, H.-M. Peng, and C.-S. Liao, Chunghwa Telecom, Taiwan
+
+The Trade-off between Some State Space and FIR Algorithms in
+GPS-based Optimal Control of a Local Crystal Clock  . . . . . . . . . . . . . . . .  249
+     Y. S. Shmaliy, R. Olivera-Reyna, O. Ibarra-Manzano, and R. Olivera-Reyna, Guanajuato
+     University, Mexico
+
+Time Domain Frequency Stability Estimation Based on  FFT
+Measurements  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  261
+     P. C. Chang, H. M. Peng, and S. Y. Lin, Chunghwa Telecom, Taiwan
+
+
+
+
+
+
+
+
+
+
+SESSION V-B
+
+ALGORITHMS AND METHODS
+
+Jim Skinner, Chairman
+U.S. Naval Observatory
+
+Uncertainty of Stability Variances Based on Finite Differences  . . . . . . . . .  267  
+     C. A. Greenhall, NASA/Jet Propulsion Laboratory, and W. J. Riley, Symmetricom
+
+A Kalman Filter Clock Algorithm for Use in the Presence of Flicker 
+Frequency Modulation Noise  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  281
+     J. A. Davis, National Physical Laboratory, UK; C. A. Greenhall, NASA/Jet Propulsion
+     Laboratory; and P. W. Stacey, National Physical Laboratory, UK
+
+A Paper Clock Model for the Cesium Clock Ensemble of TL  . . . . . . . . . .  297 
+     S. Y. Lin and H. M. Peng, Chunghwa Telecom, Taiwan
+
+A New Realization of Terrestrial Time  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  307
+     G. Petit, Bureau International des Poids et Mesures, France
+
+Application of Control Theory in the Formation of a Timescale  . . . . . . . .  319
+     P. Koppang, D. Johns, and J. Skinner, U.S. Naval Observatory
+
+
+INVITED PAPER
+
+ITU-R Special Rapporteur Group on the Future of the UTC Time
+Scale  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  327
+     R. Beard, U.S. Naval Research Laboratory
+
+
+SESSION VI
+
+WORKING GROUPS
+
+Joseph D. White, Chairman
+U.S. Naval Research Laboratory
+
+(See Session XII for reports)
+
+
+
+
+SESSION VII
+
+POSTER SESSION
+
+Kenneth L. Senior, II, Chairman
+U.S. Naval Research Laboratory
+
+(Papers have been reassigned in these Proceedings to
+Sessions IV-A, IV-B, V-A, V-B, and XI-B)
+
+
+INVITED PAPER
+
+Advanced Clocks for PTTI  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  333
+     J. White, U.S. Naval Research Laboratory
+
+
+ SESSION VIII
+
+MEASUREMENT TECHNOLOGY
+
+Henry F. Fliegel, Chairman
+The Aerospace Corporation
+
+A High-Precision Counter Using the DSP Technique  . . . . . . . . . . . . . . . . .  339 
+     S.-S. Chen, P.-C. Chang, H.-M. Peng, and C.-S. Liao, Chunghwa Telecom, Taiwan
+
+Picosecond-accuracy Digital-to-Time Converter for Phase-Interpolation
+DDS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  347
+     F. Baronti, D. Lunardini, R. Roncella, and R. Saletti, University of Pisa, Italy
+
+A PC-based Time Interval Counter with 200 Ps Resolution  . . . . . . . . . . . .  359
+     J. Kalisz and R. Szplet, Military University of Technology, Poland
+
+
+
+
+
+
+
+
+
+
+
+
+SESSION IX
+
+TIMING SYSTEMS AND APPLICATIONS
+
+Thomas A. Clark, Chairman
+Syntonics LLC
+
+Master Clock and Time Distribution System for the NASA Deep Space 
+Network  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  371
+     J. Lauf, M. Calhoun, P. F. Kuhnle, R. L. Sydnor, and R. L. Tjoelker, 
+     NASA/Jet Propulsion Laboratory
+
+LISA:  The Laser Interferometer Space Antenna  . . . . . . . . . . . . . . . . . . . .  383
+     M. Tinto, NASA/Jet Propulsion Laboratory
+
+The State of the Art in Amateur Timekeeping   . . . . . . . . . . . . . . . . . . .  393
+     T. Van Baak, LeapSecond.com
+
+
+SESSION X
+
+MILITARY SYSTEMS AND USERS
+
+William Bollwerk, Chairman
+U.S. Naval Observatory
+
+Distributed Coherent RF Operations  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  409
+     J. A. Kosinski, U.S. Army
+
+Fleet Use of Precise Time  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  419
+     Thomas E. Myers, Fleet Forces Command
+
+
+SESSION XI-A
+
+ADVANCED CLOCKS
+
+Robert Lutwak, Chairman
+Symmetricom, Inc.
+
+One-liter Ion Clock:  New Capability for Spaceflight Applications  . . . . . .  427
+     J. D. Prestage, S. Chung, T. Le, M. Beach, L. Maleki, and R. L. Tjoelker,
+     NASA/Jet Propulsion Laboratory
+Investigations of Vapor-Cell Clock Equilibration Following Initial
+Activation:  A Progress Report  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  435
+     S. Herbulock, C. Klimcak, A. Presser, J. Milne, and J. Camparo, The Aerospace
+     Corporation
+
+End Resonances for Atomic Clocks  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  445
+A.B. Post, Y-Y. Jau, N. N. Kuzma, Princeton Univerity; A. M. Braun, S. Lipp,
+     J. H. Abeles, Sarnoff Corporation; M. V. Romalis, E. Miron, and W. Happer, Princeton
+     University
+
+Using Laser Diode Instabilities for Chip-Scale Stable Frequency
+References  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  457
+     T. B. Simpson, F. Doft, Titan/Jaycor; and W. M. Golding, U.S. Naval Research
+     Laboratory 
+
+
+SESSION XI-B
+
+ADVANCED CLOCKS
+
+Robert L. Tjoelker, Chairman
+NASA/Jet Propulsion Laboratory
+
+The Chip-Scale Atomic Clock – Recent Development Progress  . . . . . . . .  467
+     R. Lutwak, D. Emmons, T. English, W. Riley, Symmetricom; A. Duwel, M. Varghese,
+     Charles Stark Draper Laboratory; D. K. Serkland, and G. M. Peake, Sandia National
+     Laboratories
+
+Opto-electronic Oscillator Stabilized by a Hyperfine Atomic
+Transition  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  479
+     D. Strekalov, D. Aveline, A. B. Matsko, R. Thompson, N. Yu, and L. Maleki,
+     NASA/Jet Propulsion Laboratory
+
+Development of New Rb Clocks in Observatoire de Neuchâtel  . . . . . . . . .  489
+     C. Affolderbach and G. Mileti, Observatoire Cantonal de Neuchâtel, Switzerland
+
+
+
+
+
+
+
+
+
+SESSION XII
+
+WORKING GROUP REPORTS
+
+Joseph D. White, Chairman
+U.S. Naval Research Laboratory
+
+Working Group A:  The Future of UTC  . . . . . . . . . . . . . . . . . . . . . . . . . . .  497
+     J. Levine, National Institute of Standards and Technology; S. Stein, and T. Celano,
+     Timing Solutions Corporation
+
+Working Group B:  Future PTTI Needs  . . . . . . . . . . . . . . . . . . . . . . . . . . .  501
+     D. D. McCarthy, U.S. Naval Observatory; and C. Gregerson, Booz Allen Hamilton, Inc.
+
+Working Group C:  Calibration Issues  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  505
+     J. Oaks, U.S. Naval Research Laboratory; and E. Detoma, Sistemi Elettronica per
+     l'Automazione, Italy
+
+
+Closing Remarks  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  511
+
+
+Corrigenda to "Kalman Filter Characterization of Cesium Clocks and 
+Hydrogen Masers"   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  515
+     L. Breakiron, U.S. Naval Observatory
+
+
+List of Attendees   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  517  
+
+

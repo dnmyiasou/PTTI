@@ -1,0 +1,3 @@
+-cd /var/www/html/ptti/1969papers
+-get *
+-bye

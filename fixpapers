@@ -1,0 +1,16 @@
+#!/bin/ksh
+batch=/var/opt/arch2/ptti/sftp.ptti.batch
+year=1969
+while test $year -lt 2000
+do cd /var/opt/arch2/ptti/$year
+   echo year=$year
+   for f in Vol*
+   do echo $f 
+      if test -r "${f}"
+      then new=paper${f#Vol }
+           echo new=$new
+           mv "$f" $new
+      fi
+   done
+  let year=${year}+1
+done

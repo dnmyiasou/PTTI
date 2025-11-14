@@ -1,0 +1,98 @@
+<html><head><title>Clock Performance</title></head>
+<HTML><BODY>
+<h2> Clock Performance and Performance Measures. </H2>
+ <HR> 
+The quality of a clock is not dependent upon its error or its  rate.
+It is the <I>rate  variations </I> from  interval  to interval (usually the
+standard  interval  is  a day) which determine the quality.  If these 
+variations are irregular then  the  clock's  behavior  can  only  be
+described statistically. 
+<IMG SRC="gif/stopw.gif" ALIGN=RIGHT>
+If  the  rate changes systematically, i.e., 
+if  it  increases  by  nearly the same amount every day then we talk
+about a drift of this clock.  Quartz crystal clocks  and  (much  less 
+so) rubidium  vapor  cells  typically  have  such  a  drift.  Cesium
+clocks,  unless  there  is  something  wrong with them, or they have
+been mis-adjusted, show no drift. 
+ <P> 
+Regarding the performance of  pocket or  wrist crystal watches,  the
+most important disturbance comes from the  temperature variations to
+which the watch is exposed.  As a rule of thumb, crystals have a temperature 
+coefficient of about 1 part per million.  That amounts to a
+rate change of 0.1s per day per degree temperature change.
+    
+ <P> 
+All measurements of clock performance, or clock stability, start with a 
+set of regularly executed measurements of the clock correction 
+  With these measurements a table is constructed with the time 
+of measurement (or the day number in the series), the measurement,
+and first and second differences. The table looks like this:
+    
+ <PRE> 
+ n  Clock Error   First Diff.    Second Diff.    Sec.Dif.Square 
+           ms          ms/d           ms/d/d
+--------------------------------------------------------------- 
+  0       325           0     
+  1       350          25 
+  2       377          27              2               4
+  3       401          24             -3               9
+  4       430          29              5              25
+  5       461          31              2               4
+  6       494          33              2               4
+  7       529          35              2               4
+  8       566          37              2               4
+  9       601          35             -2               4
+ 10       636          35              0               0
+ 11       673          37              2               4
+ 12       710          37              0               0
+ 13       749          39              2               4
+ 14       790          41              2               4
+ 15       835          45              4              16
+  
+etc.
+</PRE>
+  
+The squares column will be needed in a moment.
+We have assumed that we observe a quartz crystal clock which is 
+temperature controlled. The units are milliseconds and the rates
+are given in ms/day.  In the case of atomic clocks, the unit would
+probably be in nanoseconds because of the much greater stability of 
+these clocks.   
+ <P> 
+Our example clock would be a very good crystal clock because the rate 
+variations as shown in the 4th column are small.  Nevertheless, the rate
+shows a systematic increase of 20ms in 14 days, i.e., the clock has a 
+noticeable drift. This drift is also visible as the average second
+difference (sum = 20, divide by 14 ---> average drift = 20/14 = 1.43ms/d/d).
+ <P> 
+  
+The widely adopted and by far the most simple measure of clock stability
+is the co called <B>Allan Variance</B>, internationally known as <I>two sample
+sigma</I>. It is computed as follows:  Form the squares of the second differences,
+add them, divide by 2 times the number of terms and form the square root. 
+This gives  
+  
+        86 / 28 = 3.07;  the square root finally gives  1.75ms/day
+  
+as the measure of stability.  Such stability measures are also often
+expressed in relative terms, i.e., as parts per million, etc. 
+One finds the translation between these two styles by remembering that
+one day has 86400 s. Therefore 1ms rate change per day corresponds with 
+<BR>
+(1.0E-3) / 8.64E4    =  1.157 
+<BR>
+ parts in 10 to the eight.
+ <P> 
+Our test clock, therefore, exhibits a frequency instability of  
+2.02 parts in 10 to the eight from day to day (1.157x1.75). 
+  
+ <P> 
+Remember: A <I> clock error</I> is given in units of time (s, ms, ns), whereas
+a <I>rate difference </I>is given as a relative number or as ms/day, ns/day, etc.
+ <P> 
+  
+  
+More information is available in literature upon request.
+
+</BODY>
+  

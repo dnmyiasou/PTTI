@@ -1,0 +1,3 @@
+-cd /var/www/html/papers/ts-2019
+-get *
+-bye

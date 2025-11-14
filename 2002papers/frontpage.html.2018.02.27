@@ -1,0 +1,534 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD> 
+   <TITLE>Time Service Dept., United States Naval Observatory</TITLE>
+<!--
+
+This page is maintained by:
+
+   Phillip Hephenbein
+   U.S. Naval Observatory
+
+All pages below this one, unless otherwise noted, are maintained by:
+
+   Phillip Helfenbein
+   U.S. Naval Observatory.
+
+Responsible authority is:
+
+   Superintendent
+   U.S. Naval Observatory
+   3450 Massachusetts Avenue, NW
+   Washington, DC 20392-5420
+   USA
+
+-->
+
+<style type="text/css">
+div.notice b {color:#FFCC00;background-color:blue; font-size:22px; font-family:arial; margin:12%;text-align:center; display:block}
+div.notice {border-style:line;border-width:thick;border:#FFCC00}
+div.notice A:link {text-decoration: underline; color:#FFCC00}
+div.notice A:visited {text-decoration: underline; color:#FFCC00}
+div.notice A:active {text-decoration: underline; color:#FFCC00}
+div.notice A:hover {text-decoration: underline; ; color:#00FF00}
+</style>
+
+   <META NAME="GENERATOR" CONTENT="Mozilla">
+   <META NAME="description" CONTENT=" The Master Clock for the United States.">
+   <META NAME="keywords" CONTENT="Precise Time, Atomic Clocks, Global Positioning System, GPS, Two-Way Satellite Time Transfer, TWSTT, Navy, Department of Defense, DoD, U.S. Government">
+
+<BODY BGCOLOR="#FFFFFF" FGCOLOR="#000000">
+<!-- Google Analytics R.Schmidt 2/2010 -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7131654-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=5 WIDTH=100%>
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP>
+
+<!-- Begin left side -->
+
+<!-- Begin side bar -->
+<CENTER>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=166>
+<TR>
+<TD ALIGN=CENTER VALIGN=TOP>
+<IMG SRC="/gif/UraniaSealSmall.jpg">
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP BGCOLOR="#ddddff">
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2 WIDTH=100%>
+<TR>
+<TD ALIGN=LEFT BGCOLOR=#000088>
+<FONT SIZE=3 COLOR=#EEEEFF>
+<B>Features</B>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2 COLOR="#000000">
+
+
+<li><A HREF="/what.html"
+ onMouseOver="window.status='USNO Time in Standard Time Zones';return true">What Time is it?</A>
+
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="/mc_to.html"
+ onMouseOver="window.status='The USNO Master Clock';return true">USNO Master Clock</A>
+</FONT>
+</TD>
+</TR>
+<TR>
+
+</TR>
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="/clockdev/cesium.html"
+ onMouseOver="window.status='The USNO Cesium Fountain';return true">Cesium Fountain</A>
+</FONT>
+</TD>
+</TR>
+
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="/clockdev/ion.html"
+ onMouseOver="window.status='The USNO Linear Ion Trap Clock';return true">Linear Ion Trap</A>
+</FONT>
+</TD>
+</TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/time/gps"
+ onMouseOver="window.status='GPS Status/Information';return true">GPS</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/time/twstt"
+ onMouseOver="window.status='Two-way Satellite Time Transfer';return true">Satellite Time Transfer</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="/ntp.html"
+ onMouseOver="window.status='Network Time Protocol';return true">Network Time Service</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/time/telephone-time"
+ onMouseOver="window.status='Telephone Time';return true">Telephone Time</A>
+</FONT>
+</TD>
+</TR>
+<!--
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="loran.html"
+ onMouseOver="window.status='Loran-C Timing';return true">Loran-C Timing</A>
+</FONT>
+</TD>
+</TR>
+-->
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/astronomical-applications/astronomical-information-center/us-zones?searchterm=time+zones"
+ onMouseOver="window.status='US Time Zone Conversions';return true">US Time Zones</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="/systime.html"
+ onMouseOver="window.status='Systems of Time';return true">Systems of Time</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="leapsec.html"
+ onMouseOver="window.status='Current Leap Second Information';return true">Leap Seconds</A>
+</FONT>
+</TD>
+</TR>
+</ul>
+<TR>
+<TD ALIGN=LEFT BGCOLOR=#000088>
+<FONT SIZE=3 COLOR=#EEEEFF>
+<B>Highlights</B>
+</FONT>
+</TD>
+</TR>
+<ul>
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="ftp://tycho.usno.navy.mil/pub/gps/gpstd.txt"
+ onMouseOver="window.status='Daily GPS Constellation Status';return true">Daily GPS Constellation Status</A>
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+
+<A HREF="/ptti.html"
+ onMouseOver="window.status='PTTI Systems & Apps Meeting';return true">PTTI Systems & Apps Meeting</A>
+</FONT>
+</TD>
+</TR>
+</ul>
+<TR>
+<TD ALIGN=LEFT BGCOLOR=#000088>
+<FONT SIZE=3 COLOR=#EEEEFF>
+<B>Popular Links</B>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/time/moon-phase-images?searchterm=moon+phase+images"
+ onMouseOver="window.status='Lunar Phase';return true" target=_top>Moon Phase Image</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://maia.usno.navy.mil"
+ onMouseOver="window.status='NEOS';return true" target=_top>NEOS</A>
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.boulder.nist.gov"
+ onMouseOver="window.status='NIST';return true" target=_top>NIST</A>
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil"
+ onMouseOver="window.status='USNO Home';return true" target=_top>USNO Home</A>
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.ntp.org"
+ onMouseOver="window.status='NTP.org';return true" target=_top>ntp.org</A>
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/help"
+ onMouseOver="window.status='Contact the USNO';return true">Contact the USNO</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/tours-events/sky-this-week/"
+ onMouseOver="window.status='The Sky This Week';return true">The Sky This Week</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/astronomical-applications/data-services/rs-one-day-us"
+ onMouseOver="window.status='Complete Sun and Moon Data for One Day';return true">Sun Rise/Set</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/tours-events/tour-information/tour-information-for-usno-washington-dc"
+ onMouseOver="window.status='USNO Tour Information';return true">Tour Info</A>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT>
+<FONT SIZE=2>
+<li>
+<A HREF="http://www.usno.navy.mil/USNO/tours-events/tour-information/travel-directions-to-the-u.s.-naval-observatory"
+ onMouseOver="window.status='Travel Directions to the USNO';return true">Travel Directions</A>
+</FONT>
+</TD>
+</TR>
+
+</TABLE>
+</TD>
+</TR>
+
+</TABLE>
+</CENTER>
+<!-- End side bar -->
+
+
+<!-- End left side -->
+</TD>
+<CENTER>
+<TD ALIGN=LEFT VALIGN=TOP>
+<!-- Begin right side -->
+<center>
+<BR>
+<table width=100% BORDER=0 CELLSPACING=0 CELLPADDING=1>
+<tr>
+<td align=left><b><a href="http://www.navy.mil/">Department of the Navy</a></b></td>
+<td align=right><b><a href="http://www.usno.navy.mil/">U.S. Naval Observatory</a></b></td>
+</tr>
+
+<!--
+</table>   
+
+
+<table width=100% BORDER=0 CELLSPACING=0 CELLPADDING=1>  
+-->
+<tr>
+<td align=center valign=bottom>
+
+<IMG SRC="/gif/tsl.jpg" align=center valign=bottom>
+<!--
+<div class="notice" style="border: 2px solid firebrick; font-weight: bold; margin: 10px;">
+<p>From Tuesday, 2 May 2017 through Friday, 12 May 2017 the Naval Observatory will perform scheduled network maintenance.</p>
+<p>Network degradations or outages impacting our product delivery are possible but should be temporary in nature.</p>
+</div>
+-->
+
+<div class="notice">
+<!-- <B class="notice"> -->
+NOTICE TO USERS<br>
+Under direction of the Chief of Naval Operations, the nature of the 
+Naval Observatory's web sites are changing from their traditional appearance 
+to a portal which combines all of the Navy Oceanography Community's products 
+and services.<br> 
+
+As of 15 January 2009, the U.S. Naval Observatory's products 
+and services will continue to be available at <A HREF="http://www.usno.navy.mil"><I> http://www.usno.navy.mil</I></A> but 
+will be part of a larger portal.  <br>
+
+<br>Current clock displays and lunar phase images which use direct links to <I>tycho.usno.navy.mil</I> may no longer be available.  <br> DoD customers are directed to our NIPRNet 
+site at <A HREF="https://oceanography.navy.mil"> <I>https://oceanography.navy.mil</I></A>. 
+</A>.
+
+</B>
+</div>
+<p>
+
+<P>
+</FONT>
+<FONT SIZE="+1">
+<A HREF="simpletime.html">Animated USNO Time in Standard Time Zones</A>
+<P>
+</FONT>
+
+<FONT SIZE="+2">
+<IMG SRC="/gif/cummins.jpg" align=center valign=bottom>
+
+</td>
+</tr>
+
+</FONT>
+</table>
+
+</center>
+
+
+<hr noshade size=4>
+
+<!-- Begin top bar -->
+
+<CENTER>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH=100% BGCOLOR="#FFFFFF">
+<TR>
+<TD ALIGN=CENTER VALIGN=CENTER>
+<FONT SIZE=5>
+<A HREF="/what.html"
+ onMouseOver="window.status='What Time is it?';return true" target=_top>Time</A>
+ </FONT>
+</TD>
+
+<TD ALIGN=CENTER VALIGN=CENTER>
+<FONT SIZE=5>
+<A HREF="/gps.html"
+ onMouseOver="window.status='GPS Status & Information';return true">GPS</A>
+ </FONT>
+</TD>
+
+<TD ALIGN=CENTER VALIGN=CENTER>
+<FONT SIZE=5>
+<A HREF="twoway.html"
+ onMouseOver="window.status='Two-way Satellite Time Transfer';return true">TWSTT</A>
+ </FONT>
+</TD>
+
+<TD ALIGN=CENTER VALIGN=CENTER>
+<FONT SIZE=5>
+<A HREF="ntp.html"
+ onMouseOver="window.status='Network Time Protocol';return true">NTP</A>
+ </FONT>
+</TD>
+
+<!--
+<TD ALIGN=CENTER VALIGN=CENTER>
+<FONT SIZE=5>
+<A HREF="/loran.html"
+ onMouseOver="window.status='Loran-C Timing';return true">Loran-C
+ </FONT>
+</A>
+</TD>
+
+<!--
+</TABLE>
+
+<hr noshade>
+<P>
+<!--
+ <IMG SRC="/gif/ts0204.jpg" border=0> 
+-->
+</P>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH=75% BGCOLOR="#FFFFFF">
+<FONT size=8>
+<TR>
+<TD>
+<CENTER>
+ The Official Source of Time for the Department of Defense (DoD)<br> and for the Global
+                Positioning System (GPS),<br> and a Standard of Time for the United States 
+</CENTER>
+</TD>
+</TR>
+</FONT>
+</TABLE>
+</CENTER>
+
+<!-- End top bar -->
+
+<hr noshade>
+
+<P>
+<CENTER>
+<table border=0 CELLSPACING=0 CELLPADDING=3 WIDTH=100%>
+<tr>
+<td  align=left valign=top bgcolor=#eeeeee>
+<FONT SIZE=2>
+Please read this <a href="http://www.usno.navy.mil/privacy-policy">Security and Privacy
+Notice</a> and this <a href="http://www.usno.navy.mil/external-link-disclaimer">Disclaimer for External
+Links</a>.  For Freedom of Information Act / Privacy Act questions,
+contact our <A HREF="http://www.foia.navy.mil/">FOIA Program Office</A>. 
+<!--Our <a
+href="http://sites.defenselink.mil/">DoD Resource Locator</a>
+registration number is 46042.-->
+</FONT>
+</td>
+</tr>
+</table>
+
+
+<HR noshade>
+<font size=3>
+<ADDRESS>Send comments on this page to
+<font size=3> <a href="http://www.usno.navy.mil/help/time">Time Service Dept., USNO</a> </font>
+</ADDRESS>
+</font>
+
+<!--
+<table width=100% BORDER=0 CELLSPACING=0 CELLPADDING=1>
+<tr>
+<td align=left>
+<font size=2>This is an Official U.S. Navy Web Site</font>
+</td>
+<td align=right> Send comments or questions to  
+<font size=3> <a href="http://www.usno.navy.mil/help/time">Time Service Dept., USNO</a> </font>
+</td>
+</tr>
+</table>
+</center>
+-->
+<!-- End right side -->
+
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

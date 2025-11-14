@@ -1,0 +1,128 @@
+
+#  /home/dnm/.PROFILE  ORION  version 2/25/91
+# @(#) $Revision: 56.2 $      
+
+echo ".profile running" >> /home/dnm/login.history
+
+# Default user .profile file (/bin/ksh initialization).
+
+# Set up the terminal:
+#	eval ` tset -s -Q -m ':?hp' `
+# 	stty erase "^H" kill "^U" intr "^C" eof "^D"
+ 	stty erase "^?" kill "^U" intr "^C" eof "^D"
+#stty hupcl ixon ixoff
+#	tabs
+
+# Set up the search paths  first does home/dnm:
+
+#PATH=$PATH:/home/dnm/scripts\
+PATH=./:/home/dnm/scripts\
+:/opt/matlab/bin\
+:/usr/local/bin\
+:/opt/fortran90/bin\
+:$PATH
+
+export MANPATH=/usr/share/man:$MANPATH
+#:/opt/fortran90/bin\
+#:.
+
+#SHLIB_PATH=/opt/matlab/extern/lib/hpux:/opt/matlab/sys/opengl/lib/hpux:/opt/matlab/bin/hpux:/opt/matlab/extern/lib/hpux
+export PATH=${PATH}
+export LD_LIBRARY_PATH=/opt/hp-gcc/lib
+
+#:/usr/bin/X11
+#:/opt/kxp
+#:/usr/contrib/bin\
+#:/home/dnm/bin\
+#:/bin\
+#:/usr/bin\
+#:/var/opt/gipsy/matlab6/bin\
+#:/usr/local/bin\
+#:/usr/local/TeX/bin\
+#:/var/opt/ts_admin/Ps2gif\
+#:/opt/wp70/wpbin\
+#:/opt/netpbm/bin\
+#:/opt/mathematica/bin\
+
+#:/opt/matlab/extern/lib/hpux:/opt/matlab/sys/opengl/lib/hpux:/opt/matlab/bin/hpux:/opt/kxp/
+#  :/usr/local/ghostview
+#export SHLIB_PATH=/var/opt/gipsy/matlab6/extern/lib/hp700:/var/opt/gipsy/matlab6/bin/hp700:/var/opt/gipsy/matlab6:/sys/opengl/lib/hp700:/usr/lib:/opt/Xaw3d/lib/X11
+#export SHLIB_PATH=/opt/kxp/lib
+export FC=f90
+
+export kxphome=/opt/kxp
+#export 
+
+# Set up the shell environment:
+	set -u
+	trap "echo 'logout'" 0
+
+# Set up the shell variables:
+	EDITOR=vi
+	export EDITOR
+#       TMOUT=0   removed 7/2/04, probably because Rich had made this preset and readonly forall
+#export TMOUT     removed 7/2/04
+	HOSTALIASES=.host_aliases
+	export HOSTALIASES
+	HISTORY=20000
+	export HISTORY
+#    export PS1="`hostname`:\$PWD\> "
+#    export PS1="hathor.dnm:\$PWD\> "
+     export PS1="dnm@tycho:\$PWD\> "
+#    pwdshort=${PWD#/var/opt}
+#    export PS1="dnm@winkler:\$pwdshort\> "
+    case $TERM in
+	  unknown )
+	    TERM=vt100
+	    COLUMNS=80
+	    LINES=24
+	    ;;
+            hpterm )
+# inserted to make solve run on net/casa 
+# 4nov99 version           /usr/local/bin/hpterm_config
+            ;;
+# inserted for no known reason
+            2393a )
+            stty ixon ixoff
+            ;;
+# inserted for no known reason
+            unknown )
+            /usr/local/bin/2623_config
+	    ;;
+	    esac
+     umask u=rwx,g=rx,o=rx
+#    umask u+r
+#    umask u+w
+#    umask g+r
+#    umask o+r
+#    umask o-w
+#    umask g-w
+
+    stty susp   
+. /home/dnm/scripts/aliases
+#. /home/dnm/scripts/simonaliases
+set -o ignoreeof
+xset b 100 400  40
+#export LPDEST=10.1.4.19
+#export LPDEST=dnmprint_1
+# /home/root/nocap
+/usr/bin/X11/xhost +
+#/home/dnm/scripts/mjdwindow
+#    windset  the alias did not seem to work as an alias
+#   . /home/dnm/scripts/windset   removed 11/99
+#    . /home/dnm/scripts/disporion
+#   xmodmap -e "remove Lock = Caps_Lock"
+#    alias exit='ex'
+#         x11start
+#export DISPLAY=orion:0
+# line below clobbers reflection, so stay with dispd
+#export DISPLAY=`/bin/who -mR |sed 's/.*(\([a-z0-9]*\).*/\1/'`:0
+# keep this for now
+# . /home/dnm/scripts/dispd
+#THIS WORKED FOR TWSTTI: export DISPLAY=`/bin/who -mR |sed 's/.*(\([a-z0-9]*\).*/\1/'`:0
+disp=`env | grep DISPLAY`
+if test -z "$disp"
+then echo "setting display, assuming you are on orion"
+     echo "if you are on something else, try typing dispmac"
+     . /home/dnm/scripts/disporion
+fi
