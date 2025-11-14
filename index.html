@@ -153,11 +153,22 @@
         <input type="text" 
                class="search-box" 
                id="searchBox" 
-               placeholder="Search by author, title, or year (e.g., 'Winkler 1969' or 'atomic clock frequency')">
+               placeholder="Search by author, title, or year (e.g., 'Winkler 1969' or 'atomic clock frequency') Note that searching by '19' will find every paper published before 2000.">
+        
         
         <div class="results-info" id="resultsInfo"></div>
         
         <ul class="paper-list" id="paperList"></ul>
+        
+        <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid #e0e0e0; text-align: center;">
+            <p style="color: #666; margin-bottom: 15px;">Download complete paper catalog:</p>
+            <button onclick="downloadCSV()" style="background-color: #27ae60; color: white; border: none; padding: 10px 20px; margin: 5px; border-radius: 4px; cursor: pointer; font-size: 14px;">
+                📥 Download Paper List (CSV)
+            </button>
+            <button onclick="downloadTextList()" style="background-color: #2980b9; color: white; border: none; padding: 10px 20px; margin: 5px; border-radius: 4px; cursor: pointer; font-size: 14px;">
+                📄 Download Paper List (Text)
+            </button>
+        </div>
     </div>
 
     <div class="pdf-viewer" id="pdfViewer">
@@ -171,6 +182,126 @@
     <script>
         // Paper data will be embedded here
         const papers = [
+  {
+    "title": "Perspectives on Systematic (Type B) Uncertaints of UTC-UTC(k)",
+    "authors": "Demetrios Matsakis",
+    "link": "2023papers/Matsakis_Perspectives.Navigation.pdf",
+    "year": "2023"
+  },
+  {
+    "title": "Controlling clocks with PID Controllers",
+    "authors": "Demetrios Matsakis",
+    "link": "2020papers/Matsakis_PID_PTTI2020.pdf",
+    "year": "2020"
+  },
+  {
+    "title": "Optimal oscillator modelling for GNSS-disciplined clocks on holdover",
+    "authors": "Demetrios Matsakis,Mathew Slavney",
+    "link": "2025papers/MatsakisSlavney_optimal_modelling_PTTI25.pdf",
+    "year": "2025"
+  },
+  {
+    "title": "The Unification of the Pole Placement and Linear Quadratic Gaussian Techniques",
+    "authors": "Demetrios Matsakis",
+    "link": "2019papers/ControlledClocks.IONPTTI.Matsakis.pdf",
+    "year": "2019"
+  },
+  {
+    "title": "The effects of proportional steering strategies on the behavior of controlled clocks",
+    "authors": "Demetrios Matsakis",
+    "link": "2019papers/ControlledClocks.Metrologia56.Matsakis2019.pdf",
+    "year": "2019"
+  },
+  {
+    "title": "GPS Carrier Phase Analysis Noise on the USNO-PTB Baselines",
+    "authors": "Demetrios Matsakis, Mark Lee, Rolf Dach, Urs Hugentobler, Z. Jiang",
+    "link": "2006papers/matsakisetal.ifcs06.pdf",
+    "year": "2006"
+  },
+  {
+    "title": "The Timing Group Delay (TGD) Correction and GPS Timing Biases",
+    "authors": "Demetrios Matsakis",
+    "link": "2007papers/matsakisionam07.pdf",
+    "year": "2007"
+  },
+  {
+    "title": "Satellite Bias Corrections in Geodetic GPS Receivers",
+    "authors": "Demetrios Matsakis,Stephen Mitchell,Edward Powers",
+    "link": "2013papers/Matsakis_ION_PNT_Biases.pdf",
+    "year": "2013"
+  },
+  {
+    "title": "Network Time Protocol (NTP) Accuracy As Seen By The Users",
+    "authors": "Demetrios Matsakis",
+    "link": "2013papers/Matsakis-NTPAccuracyAsSeenBytheUsers.IONPTTI-2013.pdf",
+    "year": "2013"
+  },
+  {
+    "title": "Time and Frequency Activities at the US Naval Observatory (USNO)",
+    "authors": "Demetrios Matsakis",
+    "link": "2013papers/Matsakis-TimeAndFrequencyActivitiesOfUSNO.IONPTTI-2013.pdf",
+    "year": "2013"
+  },
+  {
+    "title": "The 50th Anniversary of the Atomic Second",
+    "authors": "E. Felicitas Arias,  Demetrios Matsakis, Terry J. Quinn, Patrizia Tavella",
+    "link": "2018papers/Fiftieth-Anniversary-of-Atomic-Second.pdf",
+    "year": "2018"
+  },
+  {
+    "title": "Metrological and legal traceability of time signals",
+    "authors": "Demetrios Matsakis, Judah Levine, Michael Lombardi",
+    "link": "2018papers/Traceability-of-Time-Signals.pdf",
+    "year": "2018"
+  },
+  {
+    "title": "The possibility of testing the Einstein Equivalence Principle (EEP) using Two Way Satellite Time and Frequency Transfer (TW) and a Software Defined Receiver (SDR)",
+    "authors": "Wen-Hung Tseng, Demetrios Matsakis",
+    "link": "2017papers/EEP-Violations-via-TWSTT.pdf",
+    "year": "2017"
+  },
+  {
+    "title": "Investigating a Null Test of the Einstein Equivalence Principle (EEP) with Clocks at Different Solar Gravitational Potentials",
+    "authors": "Demetrios Matsakis",
+    "link": "2017papers/EEP-Violations.pdf",
+    "year": "2017"
+  },
+  {
+    "title": "Long-term instability in UTC time links",
+    "authors": "Zhihen Jiang, Demetrios Matsakis, Victor Zhang",
+    "link": "2017papers/Long-Term-Time-Transfer-Instabilities.pdf",
+    "year": "2017"
+  },
+  {
+    "title": "Time and frequency from electrical power lines",
+    "authors": "Jonathan Hardis, Demetrios Matsakis",
+    "link": "2017papers/Power-Line-Time.pdf",
+    "year": "2017"
+  },
+  {
+    "title": "Characterizing the Diurnal Signature in Two Way Satellite Time Transfer (TWSTT) Data with a Kalman Filter",
+    "authors": "Demetrios Matsakis",
+    "link": "2016papers/TWSTT-Diurnals-Kalman-Filter.pdf",
+    "year": "2016"
+  },
+  {
+    "title": "Carrier Phase and Pseudorange Disagreement as Revealed by Precise Point Positioning Solutions",
+    "authors": "Demetrios Matsakis, Zhiheng Jiang, Zenjun Wu",
+    "link": "2015papers/Code-Phase-Latching-GPS-IONPNT-2015.pdf",
+    "year": "2015"
+  },
+  {
+    "title": "How Important Is It to Synchronize the Code and Phase Measurements of a GNSS Receiver",
+    "authors": "Mark Petovellos, Pascale DeFraigne, Jean-Marie Sleewaegen, Demetrios Matsakis",
+    "link": "2015papers/Code-Phase-Latching-GPS-InsideGNSS-2015.pdf",
+    "year": "2015"
+  },
+  {
+    "title": "Precise Time and Frequency Transfer",
+    "authors": "Demetrios Matsakis, Pascale DeFraigne, P. Banerjee",
+    "link": "2014papers/Matsakis_Precise-Time-Transfer.pdf",
+    "year": "2014"
+  },
   {
     "title": "Establishing Traceability with a GPS Disciplined Clock: a Prelminary Report",
     "authors": "John Clark, Demetrios Matsakis, Andrew Novick, Michael Lombardi",
@@ -6960,7 +7091,79 @@
         });
 
         // Initialize
-        resultsInfo.textContent = 'Enter search terms to find papers from the PTTI conference proceedings (1969-2012).';
+        resultsInfo.textContent = 'Enter search terms to find papers from the PTTI conference proceedings (1969-2012), and subsequent papers by Masterclock staff.';
+
+        // Download CSV function
+        function downloadCSV() {
+            let csv = 'Title,Authors,Year,PDF Filename,PDF Path\n';
+            
+            // Sort papers by year and title
+            const sortedPapers = [...papers].sort((a, b) => {
+                if (a.year !== b.year) return a.year.localeCompare(b.year);
+                return a.title.localeCompare(b.title);
+            });
+            
+            sortedPapers.forEach(paper => {
+                const filename = paper.link.split('/').pop();
+                const row = [
+                    `"${paper.title.replace(/"/g, '""')}"`,
+                    `"${paper.authors.replace(/"/g, '""')}"`,
+                    paper.year,
+                    `"${filename}"`,
+                    `"${paper.link}"`
+                ];
+                csv += row.join(',') + '\n';
+            });
+            
+            downloadFile(csv, 'ptti_papers_list.csv', 'text/csv');
+        }
+        
+        // Download text list function
+        function downloadTextList() {
+            const now = new Date().toLocaleString();
+            let text = 'PTTI Conference Proceedings - Complete Paper List\n';
+            text += '='.repeat(80) + '\n';
+            text += `Generated: ${now}\n`;
+            text += `Total Papers: ${papers.length}\n`;
+            text += '='.repeat(80) + '\n\n';
+            
+            // Sort papers by year
+            const sortedPapers = [...papers].sort((a, b) => {
+                if (a.year !== b.year) return a.year.localeCompare(b.year);
+                return a.title.localeCompare(b.title);
+            });
+            
+            let currentYear = null;
+            sortedPapers.forEach(paper => {
+                if (paper.year !== currentYear) {
+                    currentYear = paper.year;
+                    text += '\n' + '='.repeat(80) + '\n';
+                    text += `YEAR: ${currentYear}\n`;
+                    text += '='.repeat(80) + '\n\n';
+                }
+                
+                text += `Title: ${paper.title}\n`;
+                text += `Authors: ${paper.authors}\n`;
+                text += `File: ${paper.link}\n`;
+                text += '-'.repeat(80) + '\n\n';
+            });
+            
+            downloadFile(text, 'ptti_papers_list.txt', 'text/plain');
+        }
+        
+        // Generic download function
+        function downloadFile(content, filename, mimeType) {
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
     </script>
 </body>
 </html>
